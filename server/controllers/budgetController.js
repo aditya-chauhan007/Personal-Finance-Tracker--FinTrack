@@ -1,0 +1,4 @@
+import Budget from "../models/Budget.js";
+const currentMonthYear = () => { const now = new Date(); return { month: now.getMonth() + 1, year: now.getFullYear() }; };
+export const getBudgets = async (req, res, next) => { try { const { month, year } = currentMonthYear(); res.json({ budgets: await Budget.find({ userId: req.userId, month, year }).sort({ category: 1 }) }); } catch (error) { next(error); } };
+export const upsertBudget = async (req, res, next) => { try { const { month, year } = currentMonthYear(); const limit = Number(req.body.limit); if (!Number.isFinite(limit) || limit < 0) return res.status(400).json({ message: "Budget limit must be 0 or more" }); const budget = await Budget.findOneAndUpdate({ userId: req.userId, category: req.params.category, month, year }, { $set: { limit } }, { new: true, upsert: true, runValidators: true }); res.json({ budget }); } catch (error) { next(error); } };

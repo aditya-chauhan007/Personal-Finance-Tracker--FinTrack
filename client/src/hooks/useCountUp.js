@@ -1,0 +1,2 @@
+import { useEffect, useState } from "react";
+export default function useCountUp(value, duration = 700) { const [count, setCount] = useState(0); useEffect(() => { let frame; const start = performance.now(); const from = 0; const to = Number(value) || 0; const tick = (now) => { const progress = Math.min((now - start) / duration, 1); setCount(from + (to - from) * progress); if (progress < 1) frame = requestAnimationFrame(tick); }; frame = requestAnimationFrame(tick); return () => cancelAnimationFrame(frame); }, [value, duration]); return count; }

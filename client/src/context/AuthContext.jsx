@@ -1,0 +1,14 @@
+import { createContext, useContext, useEffect, useMemo, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import api from "../api/axios";
+const AuthContext = createContext(null);
+export const AuthProvider = ({ children }) => { const [user, setUser] = useState(null); const [token, setToken] = useState(localStorage.getItem("fintrack_token")); const [loading, setLoading] = useState(true); const navigate = useNavigate();
+  useEffect(() => { const boot = async () => { if (!token) { setLoading(false); return; } try { const { data } = await api.get("/api/auth/me"); setUser(data.user); } catch { localStorage.removeItem("fintrack_token"); setToken(null); setUser(null); } finally { setLoading(false); } }; boot(); }, [token]);
+  const persist = (data) => { localStorage.setItem("fintrack_token", data.token); setToken(data.token); setUser(data.user); };
+  const login = async (email, password) => { const { data } = await api.post("/api/auth/login", { email, password }); persist(data); navigate("/dashboard"); };
+  const register = async (fullName, email, password) => { const { data } = await api.post("/api/auth/register", { fullName, email, password }); persist(data); navigate("/dashboard"); };
+  const logout = () => { localStorage.removeItem("fintrack_token"); setToken(null); setUser(null); navigate("/login"); };
+  const updateProfile = async (payload) => { const { data } = await api.put("/api/auth/profile", payload); setUser(data.user); return data.user; };
+  const value = useMemo(() => ({ user, setUser, token, isAuthenticated: Boolean(token && user), loading, login, register, logout, updateProfile }), [user, token, loading]);
+  return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>; };
+export const useAuth = () => useContext(AuthContext);

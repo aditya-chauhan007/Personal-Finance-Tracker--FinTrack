@@ -1,0 +1,11 @@
+import express from "express";
+import { body } from "express-validator";
+import { deleteAccount, login, me, register, updateProfile } from "../controllers/authController.js";
+import authMiddleware from "../middleware/authMiddleware.js";
+const router = express.Router();
+router.post("/register", [body("fullName").trim().notEmpty().withMessage("Full name is required"), body("email").isEmail().withMessage("Valid email is required"), body("password").isLength({ min: 6 }).withMessage("Password must be at least 6 characters")], register);
+router.post("/login", login);
+router.get("/me", authMiddleware, me);
+router.put("/profile", authMiddleware, updateProfile);
+router.delete("/account", authMiddleware, deleteAccount);
+export default router;
