@@ -44,8 +44,6 @@ Designed specifically for the **Indian population** with ₹ INR as default curr
 
 ## 📸 Screenshots
 
-> **How to add screenshots:** Take screenshots of your app → save them in a folder called `screenshots/` in your project root → upload to GitHub → replace the paths below with your actual image paths.
-
 ### 🔐 Login & Register
 <!-- Add your screenshots below — replace paths with actual image filenames -->
 | Login Page | Register Page |
