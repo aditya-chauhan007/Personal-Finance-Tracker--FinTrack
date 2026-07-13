@@ -1,84 +1,87 @@
-{
-  "nav": {
-    "dashboard": "Dashboard",
-    "transactions": "Transactions",
-    "budget": "Budget",
-    "analytics": "Analytics",
-    "profile": "Profile",
-    "logout": "Logout"
-  },
-  "dashboard": {
-    "welcome": "Welcome",
-    "totalBalance": "Total Net Balance",
-    "monthlyIncome": "Monthly Income",
-    "monthlyExpenses": "Monthly Expenses",
-    "savingsRate": "Savings Rate",
-    "recentTransactions": "Recent Transactions",
-    "noTransactions": "No transactions yet.",
-    "addFirst": "Add your first income or expense!"
-  },
-  "transactions": {
-    "title": "Transactions",
-    "addTransaction": "Add Transaction",
-    "exportCSV": "Export CSV",
-    "search": "Search",
-    "allTypes": "All Types",
-    "allCategories": "All Categories",
-    "income": "Income",
-    "expense": "Expense",
-    "description": "Description",
-    "date": "Date",
-    "category": "Category",
-    "type": "Type",
-    "amount": "Amount",
-    "actions": "Actions"
-  },
-  "budget": {
-    "title": "Monthly Budgets",
-    "subtitle": "Track category limits for this month",
-    "spent": "Spent",
-    "remaining": "Remaining",
-    "usage": "Usage",
-    "limit": "Limit",
-    "overBudget": "Over Budget",
-    "saveBudget": "Save Budget"
-  },
-  "analytics": {
-    "title": "Analytics",
-    "thisMonth": "This Month",
-    "last3Months": "Last 3 Months",
-    "last6Months": "Last 6 Months",
-    "customRange": "Custom Range",
-    "highestExpense": "Highest Expense Month",
-    "bestSavings": "Best Savings Month",
-    "avgSpend": "Average Monthly Spend"
-  },
-  "profile": {
-    "title": "User Settings",
-    "personalDetails": "Personal Details",
-    "fullName": "Full Name",
-    "email": "Email",
-    "saveChanges": "Save Changes",
-    "primaryCurrency": "Primary Currency",
-    "changePassword": "Change Password",
-    "currentPassword": "Current Password",
-    "newPassword": "New Password",
-    "confirmPassword": "Confirm New Password",
-    "updatePassword": "Update Password",
-    "dangerZone": "Danger Zone",
-    "deleteAccount": "Delete Account"
-  },
-  "common": {
-    "cancel": "Cancel",
-    "save": "Save",
-    "add": "Add",
-    "edit": "Edit",
-    "delete": "Delete",
-    "confirm": "Confirm",
-    "loading": "Loading",
-    "success": "తెలుగు success",
-    "error": "Error",
-    "paymentMode": "Payment Mode"
-  },
-  "languageName": "తెలుగు"
+﻿{
+    "dashboard":  {
+                      "totalBalance":  "Telugu Total Net Balance",
+                      "addFirst":  "Telugu Add your first income or expense!",
+                      "welcome":  "Telugu Welcome",
+                      "recentTransactions":  "Telugu Recent Transactions",
+                      "monthlyIncome":  "Telugu Monthly Income",
+                      "noTransactions":  "Telugu No transactions yet.",
+                      "monthlyExpenses":  "Telugu Monthly Expenses",
+                      "savingsRate":  "Telugu Savings Rate"
+                  },
+    "transactions":  {
+                         "amount":  "Telugu Amount",
+                         "expense":  "Telugu Expense",
+                         "title":  "Telugu Transactions",
+                         "category":  "Telugu Category",
+                         "allCategories":  "Telugu All Categories",
+                         "addTransaction":  "Telugu Add Transaction",
+                         "exportCSV":  "Telugu Export CSV",
+                         "date":  "Telugu Date",
+                         "search":  "Telugu Search",
+                         "type":  "Telugu Type",
+                         "allTypes":  "Telugu All Types",
+                         "actions":  "Telugu Actions",
+                         "income":  "Telugu Income",
+                         "description":  "Telugu Description"
+                     },
+    "budget":  {
+                   "remaining":  "Telugu Remaining",
+                   "subtitle":  "Telugu Track category limits for this month",
+                   "saveBudget":  "Telugu Save Budget",
+                   "title":  "Telugu Monthly Budgets",
+                   "limit":  "Telugu Limit",
+                   "spent":  "Telugu Spent",
+                   "overBudget":  "Telugu Over Budget",
+                   "usage":  "Telugu Usage"
+               },
+    "analytics":  {
+                      "highestExpense":  "Telugu Highest Expense Month",
+                      "avgSpend":  "Telugu Average Monthly Spend",
+                      "bestSavings":  "Telugu Best Savings Month",
+                      "customRange":  "Telugu Custom Range",
+                      "thisMonth":  "Telugu This Month",
+                      "toDate":  "Telugu To Date",
+                      "last3Months":  "Telugu Last 3 Months",
+                      "fromDate":  "Telugu From Date",
+                      "title":  "Telugu Analytics",
+                      "last6Months":  "Telugu Last 6 Months"
+                  },
+    "nav":  {
+                "dashboard":  "Telugu Dashboard",
+                "transactions":  "Telugu Transactions",
+                "budget":  "Telugu Budget",
+                "profile":  "Telugu Profile",
+                "analytics":  "Telugu Analytics",
+                "language":  "Telugu Language",
+                "logout":  "Telugu Logout"
+            },
+    "profile":  {
+                    "currentPassword":  "Telugu Current Password",
+                    "fullName":  "Telugu Full Name",
+                    "deleteAccount":  "Telugu Delete Account",
+                    "confirmPassword":  "Telugu Confirm New Password",
+                    "title":  "Telugu User Settings",
+                    "primaryCurrency":  "Telugu Primary Currency",
+                    "changePassword":  "Telugu Change Password",
+                    "updatePassword":  "Telugu Update Password",
+                    "saveChanges":  "Telugu Save Changes",
+                    "dangerZone":  "Telugu Danger Zone",
+                    "personalDetails":  "Telugu Personal Details",
+                    "newPassword":  "Telugu New Password",
+                    "email":  "Telugu Email"
+                },
+    "common":  {
+                   "paymentMode":  "Telugu Payment Mode",
+                   "loading":  "Telugu Loading",
+                   "error":  "Telugu Error",
+                   "cancel":  "Telugu Cancel",
+                   "success":  "Telugu Success",
+                   "search":  "Telugu Search",
+                   "delete":  "Telugu Delete",
+                   "save":  "Telugu Save",
+                   "confirm":  "Telugu Confirm",
+                   "add":  "Telugu Add",
+                   "edit":  "Telugu Edit"
+               }
 }

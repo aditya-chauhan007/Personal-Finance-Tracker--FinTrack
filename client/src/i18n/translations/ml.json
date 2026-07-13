@@ -1,84 +1,87 @@
-{
-  "nav": {
-    "dashboard": "Dashboard",
-    "transactions": "Transactions",
-    "budget": "Budget",
-    "analytics": "Analytics",
-    "profile": "Profile",
-    "logout": "Logout"
-  },
-  "dashboard": {
-    "welcome": "Welcome",
-    "totalBalance": "Total Net Balance",
-    "monthlyIncome": "Monthly Income",
-    "monthlyExpenses": "Monthly Expenses",
-    "savingsRate": "Savings Rate",
-    "recentTransactions": "Recent Transactions",
-    "noTransactions": "No transactions yet.",
-    "addFirst": "Add your first income or expense!"
-  },
-  "transactions": {
-    "title": "Transactions",
-    "addTransaction": "Add Transaction",
-    "exportCSV": "Export CSV",
-    "search": "Search",
-    "allTypes": "All Types",
-    "allCategories": "All Categories",
-    "income": "Income",
-    "expense": "Expense",
-    "description": "Description",
-    "date": "Date",
-    "category": "Category",
-    "type": "Type",
-    "amount": "Amount",
-    "actions": "Actions"
-  },
-  "budget": {
-    "title": "Monthly Budgets",
-    "subtitle": "Track category limits for this month",
-    "spent": "Spent",
-    "remaining": "Remaining",
-    "usage": "Usage",
-    "limit": "Limit",
-    "overBudget": "Over Budget",
-    "saveBudget": "Save Budget"
-  },
-  "analytics": {
-    "title": "Analytics",
-    "thisMonth": "This Month",
-    "last3Months": "Last 3 Months",
-    "last6Months": "Last 6 Months",
-    "customRange": "Custom Range",
-    "highestExpense": "Highest Expense Month",
-    "bestSavings": "Best Savings Month",
-    "avgSpend": "Average Monthly Spend"
-  },
-  "profile": {
-    "title": "User Settings",
-    "personalDetails": "Personal Details",
-    "fullName": "Full Name",
-    "email": "Email",
-    "saveChanges": "Save Changes",
-    "primaryCurrency": "Primary Currency",
-    "changePassword": "Change Password",
-    "currentPassword": "Current Password",
-    "newPassword": "New Password",
-    "confirmPassword": "Confirm New Password",
-    "updatePassword": "Update Password",
-    "dangerZone": "Danger Zone",
-    "deleteAccount": "Delete Account"
-  },
-  "common": {
-    "cancel": "Cancel",
-    "save": "Save",
-    "add": "Add",
-    "edit": "Edit",
-    "delete": "Delete",
-    "confirm": "Confirm",
-    "loading": "Loading",
-    "success": "മലയാളം success",
-    "error": "Error",
-    "paymentMode": "Payment Mode"
-  },
-  "languageName": "മലയാളം"
+﻿{
+    "dashboard":  {
+                      "totalBalance":  "Malayalam Total Net Balance",
+                      "addFirst":  "Malayalam Add your first income or expense!",
+                      "welcome":  "Malayalam Welcome",
+                      "recentTransactions":  "Malayalam Recent Transactions",
+                      "monthlyIncome":  "Malayalam Monthly Income",
+                      "noTransactions":  "Malayalam No transactions yet.",
+                      "monthlyExpenses":  "Malayalam Monthly Expenses",
+                      "savingsRate":  "Malayalam Savings Rate"
+                  },
+    "transactions":  {
+                         "amount":  "Malayalam Amount",
+                         "expense":  "Malayalam Expense",
+                         "title":  "Malayalam Transactions",
+                         "category":  "Malayalam Category",
+                         "allCategories":  "Malayalam All Categories",
+                         "addTransaction":  "Malayalam Add Transaction",
+                         "exportCSV":  "Malayalam Export CSV",
+                         "date":  "Malayalam Date",
+                         "search":  "Malayalam Search",
+                         "type":  "Malayalam Type",
+                         "allTypes":  "Malayalam All Types",
+                         "actions":  "Malayalam Actions",
+                         "income":  "Malayalam Income",
+                         "description":  "Malayalam Description"
+                     },
+    "budget":  {
+                   "remaining":  "Malayalam Remaining",
+                   "subtitle":  "Malayalam Track category limits for this month",
+                   "saveBudget":  "Malayalam Save Budget",
+                   "title":  "Malayalam Monthly Budgets",
+                   "limit":  "Malayalam Limit",
+                   "spent":  "Malayalam Spent",
+                   "overBudget":  "Malayalam Over Budget",
+                   "usage":  "Malayalam Usage"
+               },
+    "analytics":  {
+                      "highestExpense":  "Malayalam Highest Expense Month",
+                      "avgSpend":  "Malayalam Average Monthly Spend",
+                      "bestSavings":  "Malayalam Best Savings Month",
+                      "customRange":  "Malayalam Custom Range",
+                      "thisMonth":  "Malayalam This Month",
+                      "toDate":  "Malayalam To Date",
+                      "last3Months":  "Malayalam Last 3 Months",
+                      "fromDate":  "Malayalam From Date",
+                      "title":  "Malayalam Analytics",
+                      "last6Months":  "Malayalam Last 6 Months"
+                  },
+    "nav":  {
+                "dashboard":  "Malayalam Dashboard",
+                "transactions":  "Malayalam Transactions",
+                "budget":  "Malayalam Budget",
+                "profile":  "Malayalam Profile",
+                "analytics":  "Malayalam Analytics",
+                "language":  "Malayalam Language",
+                "logout":  "Malayalam Logout"
+            },
+    "profile":  {
+                    "currentPassword":  "Malayalam Current Password",
+                    "fullName":  "Malayalam Full Name",
+                    "deleteAccount":  "Malayalam Delete Account",
+                    "confirmPassword":  "Malayalam Confirm New Password",
+                    "title":  "Malayalam User Settings",
+                    "primaryCurrency":  "Malayalam Primary Currency",
+                    "changePassword":  "Malayalam Change Password",
+                    "updatePassword":  "Malayalam Update Password",
+                    "saveChanges":  "Malayalam Save Changes",
+                    "dangerZone":  "Malayalam Danger Zone",
+                    "personalDetails":  "Malayalam Personal Details",
+                    "newPassword":  "Malayalam New Password",
+                    "email":  "Malayalam Email"
+                },
+    "common":  {
+                   "paymentMode":  "Malayalam Payment Mode",
+                   "loading":  "Malayalam Loading",
+                   "error":  "Malayalam Error",
+                   "cancel":  "Malayalam Cancel",
+                   "success":  "Malayalam Success",
+                   "search":  "Malayalam Search",
+                   "delete":  "Malayalam Delete",
+                   "save":  "Malayalam Save",
+                   "confirm":  "Malayalam Confirm",
+                   "add":  "Malayalam Add",
+                   "edit":  "Malayalam Edit"
+               }
 }

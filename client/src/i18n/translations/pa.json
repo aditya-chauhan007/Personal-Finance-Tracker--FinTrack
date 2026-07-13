@@ -1,84 +1,87 @@
-{
-  "nav": {
-    "dashboard": "Dashboard",
-    "transactions": "Transactions",
-    "budget": "Budget",
-    "analytics": "Analytics",
-    "profile": "Profile",
-    "logout": "Logout"
-  },
-  "dashboard": {
-    "welcome": "Welcome",
-    "totalBalance": "Total Net Balance",
-    "monthlyIncome": "Monthly Income",
-    "monthlyExpenses": "Monthly Expenses",
-    "savingsRate": "Savings Rate",
-    "recentTransactions": "Recent Transactions",
-    "noTransactions": "No transactions yet.",
-    "addFirst": "Add your first income or expense!"
-  },
-  "transactions": {
-    "title": "Transactions",
-    "addTransaction": "Add Transaction",
-    "exportCSV": "Export CSV",
-    "search": "Search",
-    "allTypes": "All Types",
-    "allCategories": "All Categories",
-    "income": "Income",
-    "expense": "Expense",
-    "description": "Description",
-    "date": "Date",
-    "category": "Category",
-    "type": "Type",
-    "amount": "Amount",
-    "actions": "Actions"
-  },
-  "budget": {
-    "title": "Monthly Budgets",
-    "subtitle": "Track category limits for this month",
-    "spent": "Spent",
-    "remaining": "Remaining",
-    "usage": "Usage",
-    "limit": "Limit",
-    "overBudget": "Over Budget",
-    "saveBudget": "Save Budget"
-  },
-  "analytics": {
-    "title": "Analytics",
-    "thisMonth": "This Month",
-    "last3Months": "Last 3 Months",
-    "last6Months": "Last 6 Months",
-    "customRange": "Custom Range",
-    "highestExpense": "Highest Expense Month",
-    "bestSavings": "Best Savings Month",
-    "avgSpend": "Average Monthly Spend"
-  },
-  "profile": {
-    "title": "User Settings",
-    "personalDetails": "Personal Details",
-    "fullName": "Full Name",
-    "email": "Email",
-    "saveChanges": "Save Changes",
-    "primaryCurrency": "Primary Currency",
-    "changePassword": "Change Password",
-    "currentPassword": "Current Password",
-    "newPassword": "New Password",
-    "confirmPassword": "Confirm New Password",
-    "updatePassword": "Update Password",
-    "dangerZone": "Danger Zone",
-    "deleteAccount": "Delete Account"
-  },
-  "common": {
-    "cancel": "Cancel",
-    "save": "Save",
-    "add": "Add",
-    "edit": "Edit",
-    "delete": "Delete",
-    "confirm": "Confirm",
-    "loading": "Loading",
-    "success": "ਪੰਜਾਬੀ success",
-    "error": "Error",
-    "paymentMode": "Payment Mode"
-  },
-  "languageName": "ਪੰਜਾਬੀ"
+﻿{
+    "dashboard":  {
+                      "totalBalance":  "Punjabi Total Net Balance",
+                      "addFirst":  "Punjabi Add your first income or expense!",
+                      "welcome":  "Punjabi Welcome",
+                      "recentTransactions":  "Punjabi Recent Transactions",
+                      "monthlyIncome":  "Punjabi Monthly Income",
+                      "noTransactions":  "Punjabi No transactions yet.",
+                      "monthlyExpenses":  "Punjabi Monthly Expenses",
+                      "savingsRate":  "Punjabi Savings Rate"
+                  },
+    "transactions":  {
+                         "amount":  "Punjabi Amount",
+                         "expense":  "Punjabi Expense",
+                         "title":  "Punjabi Transactions",
+                         "category":  "Punjabi Category",
+                         "allCategories":  "Punjabi All Categories",
+                         "addTransaction":  "Punjabi Add Transaction",
+                         "exportCSV":  "Punjabi Export CSV",
+                         "date":  "Punjabi Date",
+                         "search":  "Punjabi Search",
+                         "type":  "Punjabi Type",
+                         "allTypes":  "Punjabi All Types",
+                         "actions":  "Punjabi Actions",
+                         "income":  "Punjabi Income",
+                         "description":  "Punjabi Description"
+                     },
+    "budget":  {
+                   "remaining":  "Punjabi Remaining",
+                   "subtitle":  "Punjabi Track category limits for this month",
+                   "saveBudget":  "Punjabi Save Budget",
+                   "title":  "Punjabi Monthly Budgets",
+                   "limit":  "Punjabi Limit",
+                   "spent":  "Punjabi Spent",
+                   "overBudget":  "Punjabi Over Budget",
+                   "usage":  "Punjabi Usage"
+               },
+    "analytics":  {
+                      "highestExpense":  "Punjabi Highest Expense Month",
+                      "avgSpend":  "Punjabi Average Monthly Spend",
+                      "bestSavings":  "Punjabi Best Savings Month",
+                      "customRange":  "Punjabi Custom Range",
+                      "thisMonth":  "Punjabi This Month",
+                      "toDate":  "Punjabi To Date",
+                      "last3Months":  "Punjabi Last 3 Months",
+                      "fromDate":  "Punjabi From Date",
+                      "title":  "Punjabi Analytics",
+                      "last6Months":  "Punjabi Last 6 Months"
+                  },
+    "nav":  {
+                "dashboard":  "Punjabi Dashboard",
+                "transactions":  "Punjabi Transactions",
+                "budget":  "Punjabi Budget",
+                "profile":  "Punjabi Profile",
+                "analytics":  "Punjabi Analytics",
+                "language":  "Punjabi Language",
+                "logout":  "Punjabi Logout"
+            },
+    "profile":  {
+                    "currentPassword":  "Punjabi Current Password",
+                    "fullName":  "Punjabi Full Name",
+                    "deleteAccount":  "Punjabi Delete Account",
+                    "confirmPassword":  "Punjabi Confirm New Password",
+                    "title":  "Punjabi User Settings",
+                    "primaryCurrency":  "Punjabi Primary Currency",
+                    "changePassword":  "Punjabi Change Password",
+                    "updatePassword":  "Punjabi Update Password",
+                    "saveChanges":  "Punjabi Save Changes",
+                    "dangerZone":  "Punjabi Danger Zone",
+                    "personalDetails":  "Punjabi Personal Details",
+                    "newPassword":  "Punjabi New Password",
+                    "email":  "Punjabi Email"
+                },
+    "common":  {
+                   "paymentMode":  "Punjabi Payment Mode",
+                   "loading":  "Punjabi Loading",
+                   "error":  "Punjabi Error",
+                   "cancel":  "Punjabi Cancel",
+                   "success":  "Punjabi Success",
+                   "search":  "Punjabi Search",
+                   "delete":  "Punjabi Delete",
+                   "save":  "Punjabi Save",
+                   "confirm":  "Punjabi Confirm",
+                   "add":  "Punjabi Add",
+                   "edit":  "Punjabi Edit"
+               }
 }

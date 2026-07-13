@@ -1,84 +1,87 @@
-{
-  "nav": {
-    "dashboard": "Dashboard",
-    "transactions": "Transactions",
-    "budget": "Budget",
-    "analytics": "Analytics",
-    "profile": "Profile",
-    "logout": "Logout"
-  },
-  "dashboard": {
-    "welcome": "Welcome",
-    "totalBalance": "Total Net Balance",
-    "monthlyIncome": "Monthly Income",
-    "monthlyExpenses": "Monthly Expenses",
-    "savingsRate": "Savings Rate",
-    "recentTransactions": "Recent Transactions",
-    "noTransactions": "No transactions yet.",
-    "addFirst": "Add your first income or expense!"
-  },
-  "transactions": {
-    "title": "Transactions",
-    "addTransaction": "Add Transaction",
-    "exportCSV": "Export CSV",
-    "search": "Search",
-    "allTypes": "All Types",
-    "allCategories": "All Categories",
-    "income": "Income",
-    "expense": "Expense",
-    "description": "Description",
-    "date": "Date",
-    "category": "Category",
-    "type": "Type",
-    "amount": "Amount",
-    "actions": "Actions"
-  },
-  "budget": {
-    "title": "Monthly Budgets",
-    "subtitle": "Track category limits for this month",
-    "spent": "Spent",
-    "remaining": "Remaining",
-    "usage": "Usage",
-    "limit": "Limit",
-    "overBudget": "Over Budget",
-    "saveBudget": "Save Budget"
-  },
-  "analytics": {
-    "title": "Analytics",
-    "thisMonth": "This Month",
-    "last3Months": "Last 3 Months",
-    "last6Months": "Last 6 Months",
-    "customRange": "Custom Range",
-    "highestExpense": "Highest Expense Month",
-    "bestSavings": "Best Savings Month",
-    "avgSpend": "Average Monthly Spend"
-  },
-  "profile": {
-    "title": "User Settings",
-    "personalDetails": "Personal Details",
-    "fullName": "Full Name",
-    "email": "Email",
-    "saveChanges": "Save Changes",
-    "primaryCurrency": "Primary Currency",
-    "changePassword": "Change Password",
-    "currentPassword": "Current Password",
-    "newPassword": "New Password",
-    "confirmPassword": "Confirm New Password",
-    "updatePassword": "Update Password",
-    "dangerZone": "Danger Zone",
-    "deleteAccount": "Delete Account"
-  },
-  "common": {
-    "cancel": "Cancel",
-    "save": "Save",
-    "add": "Add",
-    "edit": "Edit",
-    "delete": "Delete",
-    "confirm": "Confirm",
-    "loading": "Loading",
-    "success": "ગુજરાતી success",
-    "error": "Error",
-    "paymentMode": "Payment Mode"
-  },
-  "languageName": "ગુજરાતી"
+﻿{
+    "dashboard":  {
+                      "totalBalance":  "Gujarati Total Net Balance",
+                      "addFirst":  "Gujarati Add your first income or expense!",
+                      "welcome":  "Gujarati Welcome",
+                      "recentTransactions":  "Gujarati Recent Transactions",
+                      "monthlyIncome":  "Gujarati Monthly Income",
+                      "noTransactions":  "Gujarati No transactions yet.",
+                      "monthlyExpenses":  "Gujarati Monthly Expenses",
+                      "savingsRate":  "Gujarati Savings Rate"
+                  },
+    "transactions":  {
+                         "amount":  "Gujarati Amount",
+                         "expense":  "Gujarati Expense",
+                         "title":  "Gujarati Transactions",
+                         "category":  "Gujarati Category",
+                         "allCategories":  "Gujarati All Categories",
+                         "addTransaction":  "Gujarati Add Transaction",
+                         "exportCSV":  "Gujarati Export CSV",
+                         "date":  "Gujarati Date",
+                         "search":  "Gujarati Search",
+                         "type":  "Gujarati Type",
+                         "allTypes":  "Gujarati All Types",
+                         "actions":  "Gujarati Actions",
+                         "income":  "Gujarati Income",
+                         "description":  "Gujarati Description"
+                     },
+    "budget":  {
+                   "remaining":  "Gujarati Remaining",
+                   "subtitle":  "Gujarati Track category limits for this month",
+                   "saveBudget":  "Gujarati Save Budget",
+                   "title":  "Gujarati Monthly Budgets",
+                   "limit":  "Gujarati Limit",
+                   "spent":  "Gujarati Spent",
+                   "overBudget":  "Gujarati Over Budget",
+                   "usage":  "Gujarati Usage"
+               },
+    "analytics":  {
+                      "highestExpense":  "Gujarati Highest Expense Month",
+                      "avgSpend":  "Gujarati Average Monthly Spend",
+                      "bestSavings":  "Gujarati Best Savings Month",
+                      "customRange":  "Gujarati Custom Range",
+                      "thisMonth":  "Gujarati This Month",
+                      "toDate":  "Gujarati To Date",
+                      "last3Months":  "Gujarati Last 3 Months",
+                      "fromDate":  "Gujarati From Date",
+                      "title":  "Gujarati Analytics",
+                      "last6Months":  "Gujarati Last 6 Months"
+                  },
+    "nav":  {
+                "dashboard":  "Gujarati Dashboard",
+                "transactions":  "Gujarati Transactions",
+                "budget":  "Gujarati Budget",
+                "profile":  "Gujarati Profile",
+                "analytics":  "Gujarati Analytics",
+                "language":  "Gujarati Language",
+                "logout":  "Gujarati Logout"
+            },
+    "profile":  {
+                    "currentPassword":  "Gujarati Current Password",
+                    "fullName":  "Gujarati Full Name",
+                    "deleteAccount":  "Gujarati Delete Account",
+                    "confirmPassword":  "Gujarati Confirm New Password",
+                    "title":  "Gujarati User Settings",
+                    "primaryCurrency":  "Gujarati Primary Currency",
+                    "changePassword":  "Gujarati Change Password",
+                    "updatePassword":  "Gujarati Update Password",
+                    "saveChanges":  "Gujarati Save Changes",
+                    "dangerZone":  "Gujarati Danger Zone",
+                    "personalDetails":  "Gujarati Personal Details",
+                    "newPassword":  "Gujarati New Password",
+                    "email":  "Gujarati Email"
+                },
+    "common":  {
+                   "paymentMode":  "Gujarati Payment Mode",
+                   "loading":  "Gujarati Loading",
+                   "error":  "Gujarati Error",
+                   "cancel":  "Gujarati Cancel",
+                   "success":  "Gujarati Success",
+                   "search":  "Gujarati Search",
+                   "delete":  "Gujarati Delete",
+                   "save":  "Gujarati Save",
+                   "confirm":  "Gujarati Confirm",
+                   "add":  "Gujarati Add",
+                   "edit":  "Gujarati Edit"
+               }
 }

@@ -1,84 +1,87 @@
-{
-  "nav": {
-    "dashboard": "Dashboard",
-    "transactions": "Transactions",
-    "budget": "Budget",
-    "analytics": "Analytics",
-    "profile": "Profile",
-    "logout": "Logout"
-  },
-  "dashboard": {
-    "welcome": "Welcome",
-    "totalBalance": "Total Net Balance",
-    "monthlyIncome": "Monthly Income",
-    "monthlyExpenses": "Monthly Expenses",
-    "savingsRate": "Savings Rate",
-    "recentTransactions": "Recent Transactions",
-    "noTransactions": "No transactions yet.",
-    "addFirst": "Add your first income or expense!"
-  },
-  "transactions": {
-    "title": "Transactions",
-    "addTransaction": "Add Transaction",
-    "exportCSV": "Export CSV",
-    "search": "Search",
-    "allTypes": "All Types",
-    "allCategories": "All Categories",
-    "income": "Income",
-    "expense": "Expense",
-    "description": "Description",
-    "date": "Date",
-    "category": "Category",
-    "type": "Type",
-    "amount": "Amount",
-    "actions": "Actions"
-  },
-  "budget": {
-    "title": "Monthly Budgets",
-    "subtitle": "Track category limits for this month",
-    "spent": "Spent",
-    "remaining": "Remaining",
-    "usage": "Usage",
-    "limit": "Limit",
-    "overBudget": "Over Budget",
-    "saveBudget": "Save Budget"
-  },
-  "analytics": {
-    "title": "Analytics",
-    "thisMonth": "This Month",
-    "last3Months": "Last 3 Months",
-    "last6Months": "Last 6 Months",
-    "customRange": "Custom Range",
-    "highestExpense": "Highest Expense Month",
-    "bestSavings": "Best Savings Month",
-    "avgSpend": "Average Monthly Spend"
-  },
-  "profile": {
-    "title": "User Settings",
-    "personalDetails": "Personal Details",
-    "fullName": "Full Name",
-    "email": "Email",
-    "saveChanges": "Save Changes",
-    "primaryCurrency": "Primary Currency",
-    "changePassword": "Change Password",
-    "currentPassword": "Current Password",
-    "newPassword": "New Password",
-    "confirmPassword": "Confirm New Password",
-    "updatePassword": "Update Password",
-    "dangerZone": "Danger Zone",
-    "deleteAccount": "Delete Account"
-  },
-  "common": {
-    "cancel": "Cancel",
-    "save": "Save",
-    "add": "Add",
-    "edit": "Edit",
-    "delete": "Delete",
-    "confirm": "Confirm",
-    "loading": "Loading",
-    "success": "ಕನ್ನಡ success",
-    "error": "Error",
-    "paymentMode": "Payment Mode"
-  },
-  "languageName": "ಕನ್ನಡ"
+﻿{
+    "dashboard":  {
+                      "totalBalance":  "Kannada Total Net Balance",
+                      "addFirst":  "Kannada Add your first income or expense!",
+                      "welcome":  "Kannada Welcome",
+                      "recentTransactions":  "Kannada Recent Transactions",
+                      "monthlyIncome":  "Kannada Monthly Income",
+                      "noTransactions":  "Kannada No transactions yet.",
+                      "monthlyExpenses":  "Kannada Monthly Expenses",
+                      "savingsRate":  "Kannada Savings Rate"
+                  },
+    "transactions":  {
+                         "amount":  "Kannada Amount",
+                         "expense":  "Kannada Expense",
+                         "title":  "Kannada Transactions",
+                         "category":  "Kannada Category",
+                         "allCategories":  "Kannada All Categories",
+                         "addTransaction":  "Kannada Add Transaction",
+                         "exportCSV":  "Kannada Export CSV",
+                         "date":  "Kannada Date",
+                         "search":  "Kannada Search",
+                         "type":  "Kannada Type",
+                         "allTypes":  "Kannada All Types",
+                         "actions":  "Kannada Actions",
+                         "income":  "Kannada Income",
+                         "description":  "Kannada Description"
+                     },
+    "budget":  {
+                   "remaining":  "Kannada Remaining",
+                   "subtitle":  "Kannada Track category limits for this month",
+                   "saveBudget":  "Kannada Save Budget",
+                   "title":  "Kannada Monthly Budgets",
+                   "limit":  "Kannada Limit",
+                   "spent":  "Kannada Spent",
+                   "overBudget":  "Kannada Over Budget",
+                   "usage":  "Kannada Usage"
+               },
+    "analytics":  {
+                      "highestExpense":  "Kannada Highest Expense Month",
+                      "avgSpend":  "Kannada Average Monthly Spend",
+                      "bestSavings":  "Kannada Best Savings Month",
+                      "customRange":  "Kannada Custom Range",
+                      "thisMonth":  "Kannada This Month",
+                      "toDate":  "Kannada To Date",
+                      "last3Months":  "Kannada Last 3 Months",
+                      "fromDate":  "Kannada From Date",
+                      "title":  "Kannada Analytics",
+                      "last6Months":  "Kannada Last 6 Months"
+                  },
+    "nav":  {
+                "dashboard":  "Kannada Dashboard",
+                "transactions":  "Kannada Transactions",
+                "budget":  "Kannada Budget",
+                "profile":  "Kannada Profile",
+                "analytics":  "Kannada Analytics",
+                "language":  "Kannada Language",
+                "logout":  "Kannada Logout"
+            },
+    "profile":  {
+                    "currentPassword":  "Kannada Current Password",
+                    "fullName":  "Kannada Full Name",
+                    "deleteAccount":  "Kannada Delete Account",
+                    "confirmPassword":  "Kannada Confirm New Password",
+                    "title":  "Kannada User Settings",
+                    "primaryCurrency":  "Kannada Primary Currency",
+                    "changePassword":  "Kannada Change Password",
+                    "updatePassword":  "Kannada Update Password",
+                    "saveChanges":  "Kannada Save Changes",
+                    "dangerZone":  "Kannada Danger Zone",
+                    "personalDetails":  "Kannada Personal Details",
+                    "newPassword":  "Kannada New Password",
+                    "email":  "Kannada Email"
+                },
+    "common":  {
+                   "paymentMode":  "Kannada Payment Mode",
+                   "loading":  "Kannada Loading",
+                   "error":  "Kannada Error",
+                   "cancel":  "Kannada Cancel",
+                   "success":  "Kannada Success",
+                   "search":  "Kannada Search",
+                   "delete":  "Kannada Delete",
+                   "save":  "Kannada Save",
+                   "confirm":  "Kannada Confirm",
+                   "add":  "Kannada Add",
+                   "edit":  "Kannada Edit"
+               }
 }

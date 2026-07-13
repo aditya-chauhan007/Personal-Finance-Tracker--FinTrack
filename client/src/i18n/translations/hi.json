@@ -1,84 +1,87 @@
-{
-  "nav": {
-    "dashboard": "Dashboard",
-    "transactions": "Transactions",
-    "budget": "Budget",
-    "analytics": "Analytics",
-    "profile": "Profile",
-    "logout": "Logout"
-  },
-  "dashboard": {
-    "welcome": "Welcome",
-    "totalBalance": "Total Net Balance",
-    "monthlyIncome": "Monthly Income",
-    "monthlyExpenses": "Monthly Expenses",
-    "savingsRate": "Savings Rate",
-    "recentTransactions": "Recent Transactions",
-    "noTransactions": "No transactions yet.",
-    "addFirst": "Add your first income or expense!"
-  },
-  "transactions": {
-    "title": "Transactions",
-    "addTransaction": "Add Transaction",
-    "exportCSV": "Export CSV",
-    "search": "Search",
-    "allTypes": "All Types",
-    "allCategories": "All Categories",
-    "income": "Income",
-    "expense": "Expense",
-    "description": "Description",
-    "date": "Date",
-    "category": "Category",
-    "type": "Type",
-    "amount": "Amount",
-    "actions": "Actions"
-  },
-  "budget": {
-    "title": "Monthly Budgets",
-    "subtitle": "Track category limits for this month",
-    "spent": "Spent",
-    "remaining": "Remaining",
-    "usage": "Usage",
-    "limit": "Limit",
-    "overBudget": "Over Budget",
-    "saveBudget": "Save Budget"
-  },
-  "analytics": {
-    "title": "Analytics",
-    "thisMonth": "This Month",
-    "last3Months": "Last 3 Months",
-    "last6Months": "Last 6 Months",
-    "customRange": "Custom Range",
-    "highestExpense": "Highest Expense Month",
-    "bestSavings": "Best Savings Month",
-    "avgSpend": "Average Monthly Spend"
-  },
-  "profile": {
-    "title": "User Settings",
-    "personalDetails": "Personal Details",
-    "fullName": "Full Name",
-    "email": "Email",
-    "saveChanges": "Save Changes",
-    "primaryCurrency": "Primary Currency",
-    "changePassword": "Change Password",
-    "currentPassword": "Current Password",
-    "newPassword": "New Password",
-    "confirmPassword": "Confirm New Password",
-    "updatePassword": "Update Password",
-    "dangerZone": "Danger Zone",
-    "deleteAccount": "Delete Account"
-  },
-  "common": {
-    "cancel": "Cancel",
-    "save": "Save",
-    "add": "Add",
-    "edit": "Edit",
-    "delete": "Delete",
-    "confirm": "Confirm",
-    "loading": "Loading",
-    "success": "हिन्दी success",
-    "error": "Error",
-    "paymentMode": "Payment Mode"
-  },
-  "languageName": "हिन्दी"
+﻿{
+    "dashboard":  {
+                      "totalBalance":  "Hindi Total Net Balance",
+                      "addFirst":  "Hindi Add your first income or expense!",
+                      "welcome":  "Hindi Welcome",
+                      "recentTransactions":  "Hindi Recent Transactions",
+                      "monthlyIncome":  "Hindi Monthly Income",
+                      "noTransactions":  "Hindi No transactions yet.",
+                      "monthlyExpenses":  "Hindi Monthly Expenses",
+                      "savingsRate":  "Hindi Savings Rate"
+                  },
+    "transactions":  {
+                         "amount":  "Hindi Amount",
+                         "expense":  "Hindi Expense",
+                         "title":  "Hindi Transactions",
+                         "category":  "Hindi Category",
+                         "allCategories":  "Hindi All Categories",
+                         "addTransaction":  "Hindi Add Transaction",
+                         "exportCSV":  "Hindi Export CSV",
+                         "date":  "Hindi Date",
+                         "search":  "Hindi Search",
+                         "type":  "Hindi Type",
+                         "allTypes":  "Hindi All Types",
+                         "actions":  "Hindi Actions",
+                         "income":  "Hindi Income",
+                         "description":  "Hindi Description"
+                     },
+    "budget":  {
+                   "remaining":  "Hindi Remaining",
+                   "subtitle":  "Hindi Track category limits for this month",
+                   "saveBudget":  "Hindi Save Budget",
+                   "title":  "Hindi Monthly Budgets",
+                   "limit":  "Hindi Limit",
+                   "spent":  "Hindi Spent",
+                   "overBudget":  "Hindi Over Budget",
+                   "usage":  "Hindi Usage"
+               },
+    "analytics":  {
+                      "highestExpense":  "Hindi Highest Expense Month",
+                      "avgSpend":  "Hindi Average Monthly Spend",
+                      "bestSavings":  "Hindi Best Savings Month",
+                      "customRange":  "Hindi Custom Range",
+                      "thisMonth":  "Hindi This Month",
+                      "toDate":  "Hindi To Date",
+                      "last3Months":  "Hindi Last 3 Months",
+                      "fromDate":  "Hindi From Date",
+                      "title":  "Hindi Analytics",
+                      "last6Months":  "Hindi Last 6 Months"
+                  },
+    "nav":  {
+                "dashboard":  "Hindi Dashboard",
+                "transactions":  "Hindi Transactions",
+                "budget":  "Hindi Budget",
+                "profile":  "Hindi Profile",
+                "analytics":  "Hindi Analytics",
+                "language":  "Hindi Language",
+                "logout":  "Hindi Logout"
+            },
+    "profile":  {
+                    "currentPassword":  "Hindi Current Password",
+                    "fullName":  "Hindi Full Name",
+                    "deleteAccount":  "Hindi Delete Account",
+                    "confirmPassword":  "Hindi Confirm New Password",
+                    "title":  "Hindi User Settings",
+                    "primaryCurrency":  "Hindi Primary Currency",
+                    "changePassword":  "Hindi Change Password",
+                    "updatePassword":  "Hindi Update Password",
+                    "saveChanges":  "Hindi Save Changes",
+                    "dangerZone":  "Hindi Danger Zone",
+                    "personalDetails":  "Hindi Personal Details",
+                    "newPassword":  "Hindi New Password",
+                    "email":  "Hindi Email"
+                },
+    "common":  {
+                   "paymentMode":  "Hindi Payment Mode",
+                   "loading":  "Hindi Loading",
+                   "error":  "Hindi Error",
+                   "cancel":  "Hindi Cancel",
+                   "success":  "Hindi Success",
+                   "search":  "Hindi Search",
+                   "delete":  "Hindi Delete",
+                   "save":  "Hindi Save",
+                   "confirm":  "Hindi Confirm",
+                   "add":  "Hindi Add",
+                   "edit":  "Hindi Edit"
+               }
 }
