@@ -13,7 +13,7 @@
 [![Vite](https://img.shields.io/badge/Vite-Build-646CFF?style=flat-square&logo=vite)](https://vitejs.dev/)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 
-[🚀 Live Demo](#) · [📸 Screenshots](#-screenshots) · [⚙️ Installation](#%EF%B8%8F-installation) · [🛠️ Tech Stack](#%EF%B8%8F-tech-stack)
+[🚀 Live Demo](https://fintrack-nu-virid.vercel.app) · [📸 Screenshots](#-screenshots) · [⚙️ Installation](#%EF%B8%8F-installation) · [🛠️ Tech Stack](#%EF%B8%8F-tech-stack)
 
 </div>
 
@@ -43,8 +43,6 @@ Designed specifically for the **Indian population** with ₹ INR as default curr
 ---
 
 ## 📸 Screenshots
-
-> **How to add screenshots:** Take screenshots of your app → save them in a folder called `screenshots/` in your project root → upload to GitHub → replace the paths below with your actual image paths.
 
 ### 🔐 Login & Register
 <!-- Add your screenshots below — replace paths with actual image filenames -->
