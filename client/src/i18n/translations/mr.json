@@ -1,87 +1,9 @@
 ﻿{
-    "dashboard":  {
-                      "totalBalance":  "Marathi Total Net Balance",
-                      "addFirst":  "Marathi Add your first income or expense!",
-                      "welcome":  "Marathi Welcome",
-                      "recentTransactions":  "Marathi Recent Transactions",
-                      "monthlyIncome":  "Marathi Monthly Income",
-                      "noTransactions":  "Marathi No transactions yet.",
-                      "monthlyExpenses":  "Marathi Monthly Expenses",
-                      "savingsRate":  "Marathi Savings Rate"
-                  },
-    "transactions":  {
-                         "amount":  "Marathi Amount",
-                         "expense":  "Marathi Expense",
-                         "title":  "Marathi Transactions",
-                         "category":  "Marathi Category",
-                         "allCategories":  "Marathi All Categories",
-                         "addTransaction":  "Marathi Add Transaction",
-                         "exportCSV":  "Marathi Export CSV",
-                         "date":  "Marathi Date",
-                         "search":  "Marathi Search",
-                         "type":  "Marathi Type",
-                         "allTypes":  "Marathi All Types",
-                         "actions":  "Marathi Actions",
-                         "income":  "Marathi Income",
-                         "description":  "Marathi Description"
-                     },
-    "budget":  {
-                   "remaining":  "Marathi Remaining",
-                   "subtitle":  "Marathi Track category limits for this month",
-                   "saveBudget":  "Marathi Save Budget",
-                   "title":  "Marathi Monthly Budgets",
-                   "limit":  "Marathi Limit",
-                   "spent":  "Marathi Spent",
-                   "overBudget":  "Marathi Over Budget",
-                   "usage":  "Marathi Usage"
-               },
-    "analytics":  {
-                      "highestExpense":  "Marathi Highest Expense Month",
-                      "avgSpend":  "Marathi Average Monthly Spend",
-                      "bestSavings":  "Marathi Best Savings Month",
-                      "customRange":  "Marathi Custom Range",
-                      "thisMonth":  "Marathi This Month",
-                      "toDate":  "Marathi To Date",
-                      "last3Months":  "Marathi Last 3 Months",
-                      "fromDate":  "Marathi From Date",
-                      "title":  "Marathi Analytics",
-                      "last6Months":  "Marathi Last 6 Months"
-                  },
-    "nav":  {
-                "dashboard":  "Marathi Dashboard",
-                "transactions":  "Marathi Transactions",
-                "budget":  "Marathi Budget",
-                "profile":  "Marathi Profile",
-                "analytics":  "Marathi Analytics",
-                "language":  "Marathi Language",
-                "logout":  "Marathi Logout"
-            },
-    "profile":  {
-                    "currentPassword":  "Marathi Current Password",
-                    "fullName":  "Marathi Full Name",
-                    "deleteAccount":  "Marathi Delete Account",
-                    "confirmPassword":  "Marathi Confirm New Password",
-                    "title":  "Marathi User Settings",
-                    "primaryCurrency":  "Marathi Primary Currency",
-                    "changePassword":  "Marathi Change Password",
-                    "updatePassword":  "Marathi Update Password",
-                    "saveChanges":  "Marathi Save Changes",
-                    "dangerZone":  "Marathi Danger Zone",
-                    "personalDetails":  "Marathi Personal Details",
-                    "newPassword":  "Marathi New Password",
-                    "email":  "Marathi Email"
-                },
-    "common":  {
-                   "paymentMode":  "Marathi Payment Mode",
-                   "loading":  "Marathi Loading",
-                   "error":  "Marathi Error",
-                   "cancel":  "Marathi Cancel",
-                   "success":  "Marathi Success",
-                   "search":  "Marathi Search",
-                   "delete":  "Marathi Delete",
-                   "save":  "Marathi Save",
-                   "confirm":  "Marathi Confirm",
-                   "add":  "Marathi Add",
-                   "edit":  "Marathi Edit"
-               }
+  "nav": { "dashboard": "डॅशबोर्ड", "transactions": "व्यवहार", "budget": "अर्थसंकल्प", "analytics": "विश्लेषण", "profile": "प्रोफाइल", "logout": "लॉग आउट", "language": "भाषा" },
+  "dashboard": { "welcome": "{{timeOfDay}}, {{name}}", "totalBalance": "एकूण शिल्लक", "monthlyIncome": "मासिक उत्पन्न", "monthlyExpenses": "मासिक खर्च", "savingsRate": "बचत दर", "recentTransactions": "अलीकडील व्यवहार", "expenseBreakdown": "खर्च तपशील", "cashflowTrend": "रोख प्रवाह प्रवृत्ती", "noTransactions": "अजून व्यवहार नाहीत.", "addFirst": "तुमचे पहिले उत्पन्न किंवा खर्च जोडा!" },
+  "transactions": { "title": "व्यवहार", "subtitle": "तुमचे रेकॉर्ड शोधा, फिल्टर करा, संपादित करा आणि निर्यात करा.", "addTransaction": "व्यवहार जोडा", "exportCSV": "CSV निर्यात करा", "income": "उत्पन्न", "expense": "खर्च", "allTypes": "सर्व प्रकार", "allCategories": "सर्व श्रेणी", "description": "वर्णन", "date": "तारीख", "category": "श्रेणी", "type": "प्रकार", "amount": "रक्कम", "actions": "क्रिया", "paymentMode": "पेमेंट मोड", "search": "वर्णन किंवा श्रेणीनुसार शोधा..." },
+  "budget": { "title": "मासिक अर्थसंकल्प", "subtitle": "या महिन्याच्या श्रेणी मर्यादा ट्रॅक करा", "spent": "खर्च", "remaining": "शिल्लक", "usage": "वापर", "limit": "मर्यादा", "overBudget": "अर्थसंकल्पापेक्षा जास्त", "saveBudget": "अर्थसंकल्प जतन करा" },
+  "analytics": { "title": "विश्लेषण", "thisMonth": "या महिन्यात", "last3Months": "मागील 3 महिने", "last6Months": "मागील 6 महिने", "customRange": "सानुकूल श्रेणी", "fromDate": "सुरुवातीची तारीख", "toDate": "शेवटची तारीख", "highestExpense": "सर्वाधिक खर्चाचा महिना", "bestSavings": "सर्वोत्तम बचतीचा महिना", "avgSpend": "सरासरी मासिक खर्च", "monthlyIncomeVsExpenses": "मासिक उत्पन्न विरुद्ध खर्च", "savingsStreamTrend": "बचत प्रवाह प्रवृत्ती", "categorySpending": "श्रेणीनुसार खर्च हिस्सा" },
+  "profile": { "title": "वापरकर्ता सेटिंग्ज", "personalDetails": "वैयक्तिक माहिती", "fullName": "पूर्ण नाव", "email": "ईमेल पत्ता", "saveChanges": "बदल जतन करा", "primaryCurrency": "प्राथमिक चलन", "changePassword": "पासवर्ड बदला", "currentPassword": "सध्याचा पासवर्ड", "newPassword": "नवीन पासवर्ड", "confirmPassword": "नवीन पासवर्ड पुष्टी करा", "updatePassword": "पासवर्ड अपडेट करा", "dangerZone": "धोक्याचा विभाग", "deleteAccount": "खाते हटवा" },
+  "common": { "cancel": "रद्द करा", "save": "जतन करा", "add": "जोडा", "delete": "हटवा", "edit": "संपादित करा", "search": "शोधा", "loading": "लोड होत आहे...", "success": "यश", "error": "त्रुटी", "confirm": "पुष्टी करा", "paymentMode": "पेमेंट मोड" }
 }

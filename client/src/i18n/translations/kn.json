@@ -1,87 +1,9 @@
 ﻿{
-    "dashboard":  {
-                      "totalBalance":  "Kannada Total Net Balance",
-                      "addFirst":  "Kannada Add your first income or expense!",
-                      "welcome":  "Kannada Welcome",
-                      "recentTransactions":  "Kannada Recent Transactions",
-                      "monthlyIncome":  "Kannada Monthly Income",
-                      "noTransactions":  "Kannada No transactions yet.",
-                      "monthlyExpenses":  "Kannada Monthly Expenses",
-                      "savingsRate":  "Kannada Savings Rate"
-                  },
-    "transactions":  {
-                         "amount":  "Kannada Amount",
-                         "expense":  "Kannada Expense",
-                         "title":  "Kannada Transactions",
-                         "category":  "Kannada Category",
-                         "allCategories":  "Kannada All Categories",
-                         "addTransaction":  "Kannada Add Transaction",
-                         "exportCSV":  "Kannada Export CSV",
-                         "date":  "Kannada Date",
-                         "search":  "Kannada Search",
-                         "type":  "Kannada Type",
-                         "allTypes":  "Kannada All Types",
-                         "actions":  "Kannada Actions",
-                         "income":  "Kannada Income",
-                         "description":  "Kannada Description"
-                     },
-    "budget":  {
-                   "remaining":  "Kannada Remaining",
-                   "subtitle":  "Kannada Track category limits for this month",
-                   "saveBudget":  "Kannada Save Budget",
-                   "title":  "Kannada Monthly Budgets",
-                   "limit":  "Kannada Limit",
-                   "spent":  "Kannada Spent",
-                   "overBudget":  "Kannada Over Budget",
-                   "usage":  "Kannada Usage"
-               },
-    "analytics":  {
-                      "highestExpense":  "Kannada Highest Expense Month",
-                      "avgSpend":  "Kannada Average Monthly Spend",
-                      "bestSavings":  "Kannada Best Savings Month",
-                      "customRange":  "Kannada Custom Range",
-                      "thisMonth":  "Kannada This Month",
-                      "toDate":  "Kannada To Date",
-                      "last3Months":  "Kannada Last 3 Months",
-                      "fromDate":  "Kannada From Date",
-                      "title":  "Kannada Analytics",
-                      "last6Months":  "Kannada Last 6 Months"
-                  },
-    "nav":  {
-                "dashboard":  "Kannada Dashboard",
-                "transactions":  "Kannada Transactions",
-                "budget":  "Kannada Budget",
-                "profile":  "Kannada Profile",
-                "analytics":  "Kannada Analytics",
-                "language":  "Kannada Language",
-                "logout":  "Kannada Logout"
-            },
-    "profile":  {
-                    "currentPassword":  "Kannada Current Password",
-                    "fullName":  "Kannada Full Name",
-                    "deleteAccount":  "Kannada Delete Account",
-                    "confirmPassword":  "Kannada Confirm New Password",
-                    "title":  "Kannada User Settings",
-                    "primaryCurrency":  "Kannada Primary Currency",
-                    "changePassword":  "Kannada Change Password",
-                    "updatePassword":  "Kannada Update Password",
-                    "saveChanges":  "Kannada Save Changes",
-                    "dangerZone":  "Kannada Danger Zone",
-                    "personalDetails":  "Kannada Personal Details",
-                    "newPassword":  "Kannada New Password",
-                    "email":  "Kannada Email"
-                },
-    "common":  {
-                   "paymentMode":  "Kannada Payment Mode",
-                   "loading":  "Kannada Loading",
-                   "error":  "Kannada Error",
-                   "cancel":  "Kannada Cancel",
-                   "success":  "Kannada Success",
-                   "search":  "Kannada Search",
-                   "delete":  "Kannada Delete",
-                   "save":  "Kannada Save",
-                   "confirm":  "Kannada Confirm",
-                   "add":  "Kannada Add",
-                   "edit":  "Kannada Edit"
-               }
+  "nav": { "dashboard": "ಡ್ಯಾಶ್‌ಬೋರ್ಡ್", "transactions": "ವಹಿವಾಟುಗಳು", "budget": "ಬಜೆಟ್", "analytics": "ವಿಶ್ಲೇಷಣೆ", "profile": "ಪ್ರೊಫೈಲ್", "logout": "ಲಾಗ್ ಔಟ್", "language": "ಭಾಷೆ" },
+  "dashboard": { "welcome": "{{timeOfDay}}, {{name}}", "totalBalance": "ಒಟ್ಟು ಬ್ಯಾಲೆನ್ಸ್", "monthlyIncome": "ಮಾಸಿಕ ಆದಾಯ", "monthlyExpenses": "ಮಾಸಿಕ ವೆಚ್ಚ", "savingsRate": "ಉಳಿತಾಯ ದರ", "recentTransactions": "ಇತ್ತೀಚಿನ ವಹಿವಾಟುಗಳು", "expenseBreakdown": "ವೆಚ್ಚ ವಿವರ", "cashflowTrend": "ನಗದು ಹರಿವು ಪ್ರವೃತ್ತಿ", "noTransactions": "ಇನ್ನೂ ವಹಿವಾಟುಗಳಿಲ್ಲ.", "addFirst": "ನಿಮ್ಮ ಮೊದಲ ಆದಾಯ ಅಥವಾ ವೆಚ್ಚ ಸೇರಿಸಿ!" },
+  "transactions": { "title": "ವಹಿವಾಟುಗಳು", "subtitle": "ನಿಮ್ಮ ದಾಖಲೆಗಳನ್ನು ಹುಡುಕಿ, ಫಿಲ್ಟರ್ ಮಾಡಿ, ಸಂಪಾದಿಸಿ ಮತ್ತು ರಫ್ತು ಮಾಡಿ.", "addTransaction": "ವಹಿವಾಟು ಸೇರಿಸಿ", "exportCSV": "CSV ರಫ್ತು", "income": "ಆದಾಯ", "expense": "ವೆಚ್ಚ", "allTypes": "ಎಲ್ಲಾ ವಿಧಗಳು", "allCategories": "ಎಲ್ಲಾ ವಿಭಾಗಗಳು", "description": "ವಿವರಣೆ", "date": "ದಿನಾಂಕ", "category": "ವರ್ಗ", "type": "ವಿಧ", "amount": "ಮೊತ್ತ", "actions": "ಕ್ರಿಯೆಗಳು", "paymentMode": "ಪಾವತಿ ಮೋಡ್", "search": "ವಿವರಣೆ ಅಥವಾ ವಿಭಾಗದ ಮೂಲಕ ಹುಡುಕಿ..." },
+  "budget": { "title": "ಮಾಸಿಕ ಬಜೆಟ್", "subtitle": "ಈ ತಿಂಗಳ ವರ್ಗ ಮಿತಿಗಳನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಿ", "spent": "ಖರ್ಚು", "remaining": "ಉಳಿದಿದೆ", "usage": "ಬಳಕೆ", "limit": "ಮಿತಿ", "overBudget": "ಬಜೆಟ್ ಮೀರಿದೆ", "saveBudget": "ಬಜೆಟ್ ಉಳಿಸಿ" },
+  "analytics": { "title": "ವಿಶ್ಲೇಷಣೆ", "thisMonth": "ಈ ತಿಂಗಳು", "last3Months": "ಕಳೆದ 3 ತಿಂಗಳು", "last6Months": "ಕಳೆದ 6 ತಿಂಗಳು", "customRange": "ಕಸ್ಟಮ್ ವ್ಯಾಪ್ತಿ", "fromDate": "ಆರಂಭ ದಿನಾಂಕ", "toDate": "ಅಂತ್ಯ ದಿನಾಂಕ", "highestExpense": "ಅತಿ ಹೆಚ್ಚು ವೆಚ್ಚದ ತಿಂಗಳು", "bestSavings": "ಉತ್ತಮ ಉಳಿತಾಯ ತಿಂಗಳು", "avgSpend": "ಸರಾಸರಿ ಮಾಸಿಕ ವೆಚ್ಚ", "monthlyIncomeVsExpenses": "ಮಾಸಿಕ ಆದಾಯ vs ವೆಚ್ಚ", "savingsStreamTrend": "ಉಳಿತಾಯ ಹರಿವು ಪ್ರವೃತ್ತಿ", "categorySpending": "ವರ್ಗವಾರು ವೆಚ್ಚ ಪಾಲು" },
+  "profile": { "title": "ಬಳಕೆದಾರ ಸೆಟ್ಟಿಂಗ್‌ಗಳು", "personalDetails": "ವೈಯಕ್ತಿಕ ವಿವರಗಳು", "fullName": "ಪೂರ್ಣ ಹೆಸರು", "email": "ಇಮೇಲ್ ವಿಳಾಸ", "saveChanges": "ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಿ", "primaryCurrency": "ಪ್ರಾಥಮಿಕ ಕರೆನ್ಸಿ", "changePassword": "ಪಾಸ್‌ವರ್ಡ್ ಬದಲಿಸಿ", "currentPassword": "ಪ್ರಸ್ತುತ ಪಾಸ್‌ವರ್ಡ್", "newPassword": "ಹೊಸ ಪಾಸ್‌ವರ್ಡ್", "confirmPassword": "ಹೊಸ ಪಾಸ್‌ವರ್ಡ್ ದೃಢೀಕರಿಸಿ", "updatePassword": "ಪಾಸ್‌ವರ್ಡ್ ನವೀಕರಿಸಿ", "dangerZone": "ಅಪಾಯ ಪ್ರದೇಶ", "deleteAccount": "ಖಾತೆ ಅಳಿಸಿ" },
+  "common": { "cancel": "ರದ್ದು ಮಾಡಿ", "save": "ಉಳಿಸಿ", "add": "ಸೇರಿಸಿ", "delete": "ಅಳಿಸಿ", "edit": "ಸಂಪಾದಿಸಿ", "search": "ಹುಡುಕಿ", "loading": "ಲೋಡ್ ಆಗುತ್ತಿದೆ...", "success": "ಯಶಸ್ಸು", "error": "ದೋಷ", "confirm": "ದೃಢೀಕರಿಸಿ", "paymentMode": "ಪಾವತಿ ಮೋಡ್" }
 }

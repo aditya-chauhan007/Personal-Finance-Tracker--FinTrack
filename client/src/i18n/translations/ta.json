@@ -1,87 +1,9 @@
 ﻿{
-    "dashboard":  {
-                      "totalBalance":  "Tamil Total Net Balance",
-                      "addFirst":  "Tamil Add your first income or expense!",
-                      "welcome":  "Tamil Welcome",
-                      "recentTransactions":  "Tamil Recent Transactions",
-                      "monthlyIncome":  "Tamil Monthly Income",
-                      "noTransactions":  "Tamil No transactions yet.",
-                      "monthlyExpenses":  "Tamil Monthly Expenses",
-                      "savingsRate":  "Tamil Savings Rate"
-                  },
-    "transactions":  {
-                         "amount":  "Tamil Amount",
-                         "expense":  "Tamil Expense",
-                         "title":  "Tamil Transactions",
-                         "category":  "Tamil Category",
-                         "allCategories":  "Tamil All Categories",
-                         "addTransaction":  "Tamil Add Transaction",
-                         "exportCSV":  "Tamil Export CSV",
-                         "date":  "Tamil Date",
-                         "search":  "Tamil Search",
-                         "type":  "Tamil Type",
-                         "allTypes":  "Tamil All Types",
-                         "actions":  "Tamil Actions",
-                         "income":  "Tamil Income",
-                         "description":  "Tamil Description"
-                     },
-    "budget":  {
-                   "remaining":  "Tamil Remaining",
-                   "subtitle":  "Tamil Track category limits for this month",
-                   "saveBudget":  "Tamil Save Budget",
-                   "title":  "Tamil Monthly Budgets",
-                   "limit":  "Tamil Limit",
-                   "spent":  "Tamil Spent",
-                   "overBudget":  "Tamil Over Budget",
-                   "usage":  "Tamil Usage"
-               },
-    "analytics":  {
-                      "highestExpense":  "Tamil Highest Expense Month",
-                      "avgSpend":  "Tamil Average Monthly Spend",
-                      "bestSavings":  "Tamil Best Savings Month",
-                      "customRange":  "Tamil Custom Range",
-                      "thisMonth":  "Tamil This Month",
-                      "toDate":  "Tamil To Date",
-                      "last3Months":  "Tamil Last 3 Months",
-                      "fromDate":  "Tamil From Date",
-                      "title":  "Tamil Analytics",
-                      "last6Months":  "Tamil Last 6 Months"
-                  },
-    "nav":  {
-                "dashboard":  "Tamil Dashboard",
-                "transactions":  "Tamil Transactions",
-                "budget":  "Tamil Budget",
-                "profile":  "Tamil Profile",
-                "analytics":  "Tamil Analytics",
-                "language":  "Tamil Language",
-                "logout":  "Tamil Logout"
-            },
-    "profile":  {
-                    "currentPassword":  "Tamil Current Password",
-                    "fullName":  "Tamil Full Name",
-                    "deleteAccount":  "Tamil Delete Account",
-                    "confirmPassword":  "Tamil Confirm New Password",
-                    "title":  "Tamil User Settings",
-                    "primaryCurrency":  "Tamil Primary Currency",
-                    "changePassword":  "Tamil Change Password",
-                    "updatePassword":  "Tamil Update Password",
-                    "saveChanges":  "Tamil Save Changes",
-                    "dangerZone":  "Tamil Danger Zone",
-                    "personalDetails":  "Tamil Personal Details",
-                    "newPassword":  "Tamil New Password",
-                    "email":  "Tamil Email"
-                },
-    "common":  {
-                   "paymentMode":  "Tamil Payment Mode",
-                   "loading":  "Tamil Loading",
-                   "error":  "Tamil Error",
-                   "cancel":  "Tamil Cancel",
-                   "success":  "Tamil Success",
-                   "search":  "Tamil Search",
-                   "delete":  "Tamil Delete",
-                   "save":  "Tamil Save",
-                   "confirm":  "Tamil Confirm",
-                   "add":  "Tamil Add",
-                   "edit":  "Tamil Edit"
-               }
+  "nav": { "dashboard": "டாஷ்போர்டு", "transactions": "பரிவர்த்தனைகள்", "budget": "பட்ஜெட்", "analytics": "பகுப்பாய்வு", "profile": "சுயவிவரம்", "logout": "வெளியேறு", "language": "மொழி" },
+  "dashboard": { "welcome": "{{timeOfDay}}, {{name}}", "totalBalance": "மொத்த இருப்பு", "monthlyIncome": "மாதாந்திர வருமானம்", "monthlyExpenses": "மாதாந்திர செலவுகள்", "savingsRate": "சேமிப்பு விகிதம்", "recentTransactions": "சமீபத்திய பரிவர்த்தனைகள்", "expenseBreakdown": "செலவு விவரம்", "cashflowTrend": "பணப்புழக்க போக்கு", "noTransactions": "இன்னும் பரிவர்த்தனைகள் இல்லை.", "addFirst": "உங்கள் முதல் வருமானம் அல்லது செலவைச் சேர்க்கவும்!" },
+  "transactions": { "title": "பரிவர்த்தனைகள்", "subtitle": "உங்கள் பதிவுகளை தேடுங்கள், வடிகட்டுங்கள், திருத்துங்கள் மற்றும் ஏற்றுமதி செய்யுங்கள்.", "addTransaction": "பரிவர்த்தனை சேர்க்கவும்", "exportCSV": "CSV ஏற்றுமதி", "income": "வருமானம்", "expense": "செலவு", "allTypes": "அனைத்து வகைகள்", "allCategories": "அனைத்து வகைகளும்", "description": "விளக்கம்", "date": "தேதி", "category": "வகை", "type": "வகை", "amount": "தொகை", "actions": "செயல்கள்", "paymentMode": "கட்டண முறை", "search": "விளக்கம் அல்லது வகை மூலம் தேடுங்கள்..." },
+  "budget": { "title": "மாதாந்திர பட்ஜெட்", "subtitle": "இந்த மாத வகை வரம்புகளை கண்காணிக்கவும்", "spent": "செலவழித்தது", "remaining": "மீதமுள்ளது", "usage": "பயன்பாடு", "limit": "வரம்பு", "overBudget": "பட்ஜெட்டை மீறியது", "saveBudget": "பட்ஜெட்டை சேமி" },
+  "analytics": { "title": "பகுப்பாய்வு", "thisMonth": "இந்த மாதம்", "last3Months": "கடந்த 3 மாதங்கள்", "last6Months": "கடந்த 6 மாதங்கள்", "customRange": "தனிப்பயன் வரம்பு", "fromDate": "தொடக்க தேதி", "toDate": "முடிவு தேதி", "highestExpense": "அதிக செலவு மாதம்", "bestSavings": "சிறந்த சேமிப்பு மாதம்", "avgSpend": "சராசரி மாத செலவு", "monthlyIncomeVsExpenses": "மாத வருமானம் vs செலவுகள்", "savingsStreamTrend": "சேமிப்பு ஓட்ட போக்கு", "categorySpending": "வகை வாரியான செலவு பங்கு" },
+  "profile": { "title": "பயனர் அமைப்புகள்", "personalDetails": "தனிப்பட்ட விவரங்கள்", "fullName": "முழு பெயர்", "email": "மின்னஞ்சல் முகவரி", "saveChanges": "மாற்றங்களை சேமி", "primaryCurrency": "முதன்மை நாணயம்", "changePassword": "கடவுச்சொல்லை மாற்று", "currentPassword": "தற்போதைய கடவுச்சொல்", "newPassword": "புதிய கடவுச்சொல்", "confirmPassword": "புதிய கடவுச்சொல்லை உறுதிப்படுத்து", "updatePassword": "கடவுச்சொல் புதுப்பி", "dangerZone": "அபாய பகுதி", "deleteAccount": "கணக்கை நீக்கு" },
+  "common": { "cancel": "ரத்து செய்", "save": "சேமி", "add": "சேர்க்க", "delete": "நீக்கு", "edit": "திருத்து", "search": "தேடு", "loading": "ஏற்றுகிறது...", "success": "வெற்றி", "error": "பிழை", "confirm": "உறுதிப்படுத்து", "paymentMode": "கட்டண முறை" }
 }

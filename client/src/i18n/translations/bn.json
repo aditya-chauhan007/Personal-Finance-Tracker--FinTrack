@@ -1,87 +1,9 @@
 ﻿{
-    "dashboard":  {
-                      "totalBalance":  "Bengali Total Net Balance",
-                      "addFirst":  "Bengali Add your first income or expense!",
-                      "welcome":  "Bengali Welcome",
-                      "recentTransactions":  "Bengali Recent Transactions",
-                      "monthlyIncome":  "Bengali Monthly Income",
-                      "noTransactions":  "Bengali No transactions yet.",
-                      "monthlyExpenses":  "Bengali Monthly Expenses",
-                      "savingsRate":  "Bengali Savings Rate"
-                  },
-    "transactions":  {
-                         "amount":  "Bengali Amount",
-                         "expense":  "Bengali Expense",
-                         "title":  "Bengali Transactions",
-                         "category":  "Bengali Category",
-                         "allCategories":  "Bengali All Categories",
-                         "addTransaction":  "Bengali Add Transaction",
-                         "exportCSV":  "Bengali Export CSV",
-                         "date":  "Bengali Date",
-                         "search":  "Bengali Search",
-                         "type":  "Bengali Type",
-                         "allTypes":  "Bengali All Types",
-                         "actions":  "Bengali Actions",
-                         "income":  "Bengali Income",
-                         "description":  "Bengali Description"
-                     },
-    "budget":  {
-                   "remaining":  "Bengali Remaining",
-                   "subtitle":  "Bengali Track category limits for this month",
-                   "saveBudget":  "Bengali Save Budget",
-                   "title":  "Bengali Monthly Budgets",
-                   "limit":  "Bengali Limit",
-                   "spent":  "Bengali Spent",
-                   "overBudget":  "Bengali Over Budget",
-                   "usage":  "Bengali Usage"
-               },
-    "analytics":  {
-                      "highestExpense":  "Bengali Highest Expense Month",
-                      "avgSpend":  "Bengali Average Monthly Spend",
-                      "bestSavings":  "Bengali Best Savings Month",
-                      "customRange":  "Bengali Custom Range",
-                      "thisMonth":  "Bengali This Month",
-                      "toDate":  "Bengali To Date",
-                      "last3Months":  "Bengali Last 3 Months",
-                      "fromDate":  "Bengali From Date",
-                      "title":  "Bengali Analytics",
-                      "last6Months":  "Bengali Last 6 Months"
-                  },
-    "nav":  {
-                "dashboard":  "Bengali Dashboard",
-                "transactions":  "Bengali Transactions",
-                "budget":  "Bengali Budget",
-                "profile":  "Bengali Profile",
-                "analytics":  "Bengali Analytics",
-                "language":  "Bengali Language",
-                "logout":  "Bengali Logout"
-            },
-    "profile":  {
-                    "currentPassword":  "Bengali Current Password",
-                    "fullName":  "Bengali Full Name",
-                    "deleteAccount":  "Bengali Delete Account",
-                    "confirmPassword":  "Bengali Confirm New Password",
-                    "title":  "Bengali User Settings",
-                    "primaryCurrency":  "Bengali Primary Currency",
-                    "changePassword":  "Bengali Change Password",
-                    "updatePassword":  "Bengali Update Password",
-                    "saveChanges":  "Bengali Save Changes",
-                    "dangerZone":  "Bengali Danger Zone",
-                    "personalDetails":  "Bengali Personal Details",
-                    "newPassword":  "Bengali New Password",
-                    "email":  "Bengali Email"
-                },
-    "common":  {
-                   "paymentMode":  "Bengali Payment Mode",
-                   "loading":  "Bengali Loading",
-                   "error":  "Bengali Error",
-                   "cancel":  "Bengali Cancel",
-                   "success":  "Bengali Success",
-                   "search":  "Bengali Search",
-                   "delete":  "Bengali Delete",
-                   "save":  "Bengali Save",
-                   "confirm":  "Bengali Confirm",
-                   "add":  "Bengali Add",
-                   "edit":  "Bengali Edit"
-               }
+  "nav": { "dashboard": "ড্যাশবোর্ড", "transactions": "লেনদেন", "budget": "বাজেট", "analytics": "বিশ্লেষণ", "profile": "প্রোফাইল", "logout": "লগ আউট", "language": "ভাষা" },
+  "dashboard": { "welcome": "{{timeOfDay}}, {{name}}", "totalBalance": "মোট ব্যালেন্স", "monthlyIncome": "মাসিক আয়", "monthlyExpenses": "মাসিক ব্যয়", "savingsRate": "সঞ্চয়ের হার", "recentTransactions": "সাম্প্রতিক লেনদেন", "expenseBreakdown": "ব্যয়ের বিবরণ", "cashflowTrend": "নগদ প্রবাহের প্রবণতা", "noTransactions": "এখনও কোনো লেনদেন নেই।", "addFirst": "আপনার প্রথম আয় বা ব্যয় যোগ করুন!" },
+  "transactions": { "title": "লেনদেন", "subtitle": "আপনার রেকর্ড খুঁজুন, ফিল্টার করুন, সম্পাদনা করুন এবং রপ্তানি করুন।", "addTransaction": "লেনদেন যোগ করুন", "exportCSV": "CSV রপ্তানি", "income": "আয়", "expense": "ব্যয়", "allTypes": "সব ধরন", "allCategories": "সব বিভাগ", "description": "বিবরণ", "date": "তারিখ", "category": "বিভাগ", "type": "ধরন", "amount": "পরিমাণ", "actions": "কার্যক্রম", "paymentMode": "পেমেন্ট মোড", "search": "বিবরণ বা বিভাগ দিয়ে খুঁজুন..." },
+  "budget": { "title": "মাসিক বাজেট", "subtitle": "এই মাসের বিভাগ সীমা ট্র্যাক করুন", "spent": "খরচ", "remaining": "অবশিষ্ট", "usage": "ব্যবহার", "limit": "সীমা", "overBudget": "বাজেট অতিক্রম", "saveBudget": "বাজেট সংরক্ষণ" },
+  "analytics": { "title": "বিশ্লেষণ", "thisMonth": "এই মাস", "last3Months": "গত ৩ মাস", "last6Months": "গত ৬ মাস", "customRange": "কাস্টম পরিসীমা", "fromDate": "শুরুর তারিখ", "toDate": "শেষ তারিখ", "highestExpense": "সর্বাধিক ব্যয়ের মাস", "bestSavings": "সেরা সঞ্চয়ের মাস", "avgSpend": "গড় মাসিক ব্যয়", "monthlyIncomeVsExpenses": "মাসিক আয় বনাম ব্যয়", "savingsStreamTrend": "সঞ্চয় প্রবণতা", "categorySpending": "বিভাগভিত্তিক ব্যয়ের অংশ" },
+  "profile": { "title": "ব্যবহারকারী সেটিংস", "personalDetails": "ব্যক্তিগত তথ্য", "fullName": "পুরো নাম", "email": "ইমেল ঠিকানা", "saveChanges": "পরিবর্তন সংরক্ষণ", "primaryCurrency": "প্রাথমিক মুদ্রা", "changePassword": "পাসওয়ার্ড পরিবর্তন", "currentPassword": "বর্তমান পাসওয়ার্ড", "newPassword": "নতুন পাসওয়ার্ড", "confirmPassword": "নতুন পাসওয়ার্ড নিশ্চিত করুন", "updatePassword": "পাসওয়ার্ড আপডেট", "dangerZone": "ঝুঁকি অঞ্চল", "deleteAccount": "অ্যাকাউন্ট মুছুন" },
+  "common": { "cancel": "বাতিল", "save": "সংরক্ষণ", "add": "যোগ করুন", "delete": "মুছুন", "edit": "সম্পাদনা", "search": "খুঁজুন", "loading": "লোড হচ্ছে...", "success": "সফল", "error": "ত্রুটি", "confirm": "নিশ্চিত", "paymentMode": "পেমেন্ট মোড" }
 }

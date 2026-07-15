@@ -1,87 +1,9 @@
 ﻿{
-    "dashboard":  {
-                      "totalBalance":  "Malayalam Total Net Balance",
-                      "addFirst":  "Malayalam Add your first income or expense!",
-                      "welcome":  "Malayalam Welcome",
-                      "recentTransactions":  "Malayalam Recent Transactions",
-                      "monthlyIncome":  "Malayalam Monthly Income",
-                      "noTransactions":  "Malayalam No transactions yet.",
-                      "monthlyExpenses":  "Malayalam Monthly Expenses",
-                      "savingsRate":  "Malayalam Savings Rate"
-                  },
-    "transactions":  {
-                         "amount":  "Malayalam Amount",
-                         "expense":  "Malayalam Expense",
-                         "title":  "Malayalam Transactions",
-                         "category":  "Malayalam Category",
-                         "allCategories":  "Malayalam All Categories",
-                         "addTransaction":  "Malayalam Add Transaction",
-                         "exportCSV":  "Malayalam Export CSV",
-                         "date":  "Malayalam Date",
-                         "search":  "Malayalam Search",
-                         "type":  "Malayalam Type",
-                         "allTypes":  "Malayalam All Types",
-                         "actions":  "Malayalam Actions",
-                         "income":  "Malayalam Income",
-                         "description":  "Malayalam Description"
-                     },
-    "budget":  {
-                   "remaining":  "Malayalam Remaining",
-                   "subtitle":  "Malayalam Track category limits for this month",
-                   "saveBudget":  "Malayalam Save Budget",
-                   "title":  "Malayalam Monthly Budgets",
-                   "limit":  "Malayalam Limit",
-                   "spent":  "Malayalam Spent",
-                   "overBudget":  "Malayalam Over Budget",
-                   "usage":  "Malayalam Usage"
-               },
-    "analytics":  {
-                      "highestExpense":  "Malayalam Highest Expense Month",
-                      "avgSpend":  "Malayalam Average Monthly Spend",
-                      "bestSavings":  "Malayalam Best Savings Month",
-                      "customRange":  "Malayalam Custom Range",
-                      "thisMonth":  "Malayalam This Month",
-                      "toDate":  "Malayalam To Date",
-                      "last3Months":  "Malayalam Last 3 Months",
-                      "fromDate":  "Malayalam From Date",
-                      "title":  "Malayalam Analytics",
-                      "last6Months":  "Malayalam Last 6 Months"
-                  },
-    "nav":  {
-                "dashboard":  "Malayalam Dashboard",
-                "transactions":  "Malayalam Transactions",
-                "budget":  "Malayalam Budget",
-                "profile":  "Malayalam Profile",
-                "analytics":  "Malayalam Analytics",
-                "language":  "Malayalam Language",
-                "logout":  "Malayalam Logout"
-            },
-    "profile":  {
-                    "currentPassword":  "Malayalam Current Password",
-                    "fullName":  "Malayalam Full Name",
-                    "deleteAccount":  "Malayalam Delete Account",
-                    "confirmPassword":  "Malayalam Confirm New Password",
-                    "title":  "Malayalam User Settings",
-                    "primaryCurrency":  "Malayalam Primary Currency",
-                    "changePassword":  "Malayalam Change Password",
-                    "updatePassword":  "Malayalam Update Password",
-                    "saveChanges":  "Malayalam Save Changes",
-                    "dangerZone":  "Malayalam Danger Zone",
-                    "personalDetails":  "Malayalam Personal Details",
-                    "newPassword":  "Malayalam New Password",
-                    "email":  "Malayalam Email"
-                },
-    "common":  {
-                   "paymentMode":  "Malayalam Payment Mode",
-                   "loading":  "Malayalam Loading",
-                   "error":  "Malayalam Error",
-                   "cancel":  "Malayalam Cancel",
-                   "success":  "Malayalam Success",
-                   "search":  "Malayalam Search",
-                   "delete":  "Malayalam Delete",
-                   "save":  "Malayalam Save",
-                   "confirm":  "Malayalam Confirm",
-                   "add":  "Malayalam Add",
-                   "edit":  "Malayalam Edit"
-               }
+  "nav": { "dashboard": "ഡാഷ്‌ബോർഡ്", "transactions": "ഇടപാടുകൾ", "budget": "ബജറ്റ്", "analytics": "വിശകലനം", "profile": "പ്രൊഫൈൽ", "logout": "ലോഗ് ഔട്ട്", "language": "ഭാഷ" },
+  "dashboard": { "welcome": "{{timeOfDay}}, {{name}}", "totalBalance": "മൊത്തം ബാലൻസ്", "monthlyIncome": "മാസ വരുമാനം", "monthlyExpenses": "മാസ ചെലവ്", "savingsRate": "സേവിംഗ്സ് നിരക്ക്", "recentTransactions": "സമീപകാല ഇടപാടുകൾ", "expenseBreakdown": "ചെലവ് വിശദാംശം", "cashflowTrend": "പണപ്രവാഹ പ്രവണത", "noTransactions": "ഇനിയും ഇടപാടുകളില്ല.", "addFirst": "നിങ്ങളുടെ ആദ്യ വരുമാനം അല്ലെങ്കിൽ ചെലവ് ചേർക്കുക!" },
+  "transactions": { "title": "ഇടപാടുകൾ", "subtitle": "നിങ്ങളുടെ രേഖകൾ തിരയുക, ഫിൽറ്റർ ചെയ്യുക, എഡിറ്റ് ചെയ്യുക, കയറ്റുമതി ചെയ്യുക.", "addTransaction": "ഇടപാട് ചേർക്കുക", "exportCSV": "CSV കയറ്റുമതി", "income": "വരുമാനം", "expense": "ചെലവ്", "allTypes": "എല്ലാ തരങ്ങളും", "allCategories": "എല്ലാ വിഭാഗങ്ങളും", "description": "വിവരണം", "date": "തീയതി", "category": "വിഭാഗം", "type": "തരം", "amount": "തുക", "actions": "പ്രവർത്തനങ്ങൾ", "paymentMode": "പേയ്മെന്റ് മോഡ്", "search": "വിവരണം അല്ലെങ്കിൽ വിഭാഗം ഉപയോഗിച്ച് തിരയുക..." },
+  "budget": { "title": "മാസ ബജറ്റ്", "subtitle": "ഈ മാസത്തെ വിഭാഗ പരിധികൾ ട്രാക്കുചെയ്യുക", "spent": "ചെലവഴിച്ചത്", "remaining": "ശേഷിക്കുന്നത്", "usage": "ഉപയോഗം", "limit": "പരിധി", "overBudget": "ബജറ്റ് കവിഞ്ഞു", "saveBudget": "ബജറ്റ് സംരക്ഷിക്കുക" },
+  "analytics": { "title": "വിശകലനം", "thisMonth": "ഈ മാസം", "last3Months": "കഴിഞ്ഞ 3 മാസം", "last6Months": "കഴിഞ്ഞ 6 മാസം", "customRange": "ഇഷ്ടാനുസൃത ശ്രേണി", "fromDate": "ആരംഭ തീയതി", "toDate": "അവസാന തീയതി", "highestExpense": "ഏറ്റവും കൂടിയ ചെലവ് മാസം", "bestSavings": "മികച്ച സേവിംഗ്സ് മാസം", "avgSpend": "ശരാശരി മാസ ചെലവ്", "monthlyIncomeVsExpenses": "മാസ വരുമാനം vs ചെലവ്", "savingsStreamTrend": "സേവിംഗ്സ് പ്രവണത", "categorySpending": "വിഭാഗംപ്രകാരമുള്ള ചെലവ് പങ്ക്" },
+  "profile": { "title": "ഉപയോക്തൃ ക്രമീകരണങ്ങൾ", "personalDetails": "വ്യക്തിഗത വിവരങ്ങൾ", "fullName": "പൂർണ്ണ പേര്", "email": "ഇമെയിൽ വിലാസം", "saveChanges": "മാറ്റങ്ങൾ സംരക്ഷിക്കുക", "primaryCurrency": "പ്രാഥമിക കറൻസി", "changePassword": "പാസ്‌വേഡ് മാറ്റുക", "currentPassword": "നിലവിലെ പാസ്‌വേഡ്", "newPassword": "പുതിയ പാസ്‌വേഡ്", "confirmPassword": "പുതിയ പാസ്‌വേഡ് സ്ഥിരീകരിക്കുക", "updatePassword": "പാസ്‌വേഡ് പുതുക്കുക", "dangerZone": "അപായ മേഖല", "deleteAccount": "അക്കൗണ്ട് ഇല്ലാതാക്കുക" },
+  "common": { "cancel": "റദ്ദാക്കുക", "save": "സംരക്ഷിക്കുക", "add": "ചേർക്കുക", "delete": "ഇല്ലാതാക്കുക", "edit": "എഡിറ്റ് ചെയ്യുക", "search": "തിരയുക", "loading": "ലോഡ് ചെയ്യുന്നു...", "success": "വിജയം", "error": "പിശക്", "confirm": "സ്ഥിരീകരിക്കുക", "paymentMode": "പേയ്മെന്റ് മോഡ്" }
 }

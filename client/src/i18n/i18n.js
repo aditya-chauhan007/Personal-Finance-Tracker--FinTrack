@@ -12,5 +12,5 @@ import kn from "./translations/kn.json";
 import ml from "./translations/ml.json";
 import pa from "./translations/pa.json";
 
-i18n.use(LanguageDetector).use(initReactI18next).init({ resources: { en: { translation: en }, hi: { translation: hi }, bn: { translation: bn }, te: { translation: te }, mr: { translation: mr }, ta: { translation: ta }, gu: { translation: gu }, kn: { translation: kn }, ml: { translation: ml }, pa: { translation: pa } }, fallbackLng: "en", lng: localStorage.getItem("fintrack_language") || "hi", interpolation: { escapeValue: false } });
+i18n.use(LanguageDetector).use(initReactI18next).init({ resources: { en: { translation: en }, hi: { translation: hi }, bn: { translation: bn }, te: { translation: te }, mr: { translation: mr }, ta: { translation: ta }, gu: { translation: gu }, kn: { translation: kn }, ml: { translation: ml }, pa: { translation: pa } }, fallbackLng: "en", defaultNS: "translation", lng: localStorage.getItem("fintrack_language") || "hi", interpolation: { escapeValue: false } });
 export default i18n;
