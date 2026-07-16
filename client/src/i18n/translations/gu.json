@@ -1,9 +1,99 @@
 ﻿{
-  "nav": { "dashboard": "ડેશબોર્ડ", "transactions": "વ્યવહારો", "budget": "બજેટ", "analytics": "વિશ્લેષણ", "profile": "પ્રોફાઇલ", "logout": "લૉગ આઉટ", "language": "ભાષા" },
-  "dashboard": { "welcome": "{{timeOfDay}}, {{name}}", "totalBalance": "કુલ બેલેન્સ", "monthlyIncome": "માસિક આવક", "monthlyExpenses": "માસિક ખર્ચ", "savingsRate": "બચત દર", "recentTransactions": "તાજેતરના વ્યવહારો", "expenseBreakdown": "ખર્ચ વિગત", "cashflowTrend": "રોકડ પ્રવાહ વલણ", "noTransactions": "હજુ કોઈ વ્યવહાર નથી.", "addFirst": "તમારી પ્રથમ આવક અથવા ખર્ચ ઉમેરો!" },
-  "transactions": { "title": "વ્યવહારો", "subtitle": "તમારા રેકોર્ડ શોધો, ફિલ્ટર કરો, સંપાદિત કરો અને નિકાસ કરો.", "addTransaction": "વ્યવહાર ઉમેરો", "exportCSV": "CSV નિકાસ", "income": "આવક", "expense": "ખર્ચ", "allTypes": "બધા પ્રકારો", "allCategories": "બધી શ્રેણીઓ", "description": "વર્ણન", "date": "તારીખ", "category": "શ્રેણી", "type": "પ્રકાર", "amount": "રકમ", "actions": "ક્રિયાઓ", "paymentMode": "ચુકવણી મોડ", "search": "વર્ણન અથવા શ્રેણી દ્વારા શોધો..." },
-  "budget": { "title": "માસિક બજેટ", "subtitle": "આ મહિનાની શ્રેણી મર્યાદાઓ ટ્રેક કરો", "spent": "ખર્ચ", "remaining": "બાકી", "usage": "ઉપયોગ", "limit": "મર્યાદા", "overBudget": "બજેટ ઓળંગ્યું", "saveBudget": "બજેટ સાચવો" },
-  "analytics": { "title": "વિશ્લેષણ", "thisMonth": "આ મહિને", "last3Months": "છેલ્લા 3 મહિના", "last6Months": "છેલ્લા 6 મહિના", "customRange": "કસ્ટમ શ્રેણી", "fromDate": "શરૂઆત તારીખ", "toDate": "અંત તારીખ", "highestExpense": "સર્વાધિક ખર્ચ મહિનો", "bestSavings": "શ્રેષ્ઠ બચત મહિનો", "avgSpend": "સરેરાશ માસિક ખર્ચ", "monthlyIncomeVsExpenses": "માસિક આવક vs ખર્ચ", "savingsStreamTrend": "બચત પ્રવાહ વલણ", "categorySpending": "શ્રેણીવાર ખર્ચ હિસ્સો" },
-  "profile": { "title": "વપરાશકર્તા સેટિંગ્સ", "personalDetails": "વ્યક્તિગત વિગતો", "fullName": "પૂર્ણ નામ", "email": "ઈમેલ સરનામું", "saveChanges": "ફેરફારો સાચવો", "primaryCurrency": "પ્રાથમિક ચલણ", "changePassword": "પાસવર્ડ બદલો", "currentPassword": "વર્તમાન પાસવર્ડ", "newPassword": "નવો પાસવર્ડ", "confirmPassword": "નવો પાસવર્ડ પુષ્ટિ કરો", "updatePassword": "પાસવર્ડ અપડેટ કરો", "dangerZone": "જોખમ વિસ્તાર", "deleteAccount": "એકાઉન્ટ કાઢી નાખો" },
-  "common": { "cancel": "રદ કરો", "save": "સાચવો", "add": "ઉમેરો", "delete": "કાઢી નાખો", "edit": "સંપાદિત કરો", "search": "શોધો", "loading": "લોડ થઈ રહ્યું છે...", "success": "સફળતા", "error": "ભૂલ", "confirm": "પુષ્ટિ કરો", "paymentMode": "ચુકવણી મોડ" }
+    "nav":  {
+                "dashboard":  "ડેશબોર્ડ",
+                "transactions":  "વ્યવહારો",
+                "budget":  "બજેટ",
+                "analytics":  "વિશ્લેષણ",
+                "profile":  "પ્રોફાઇલ",
+                "logout":  "લૉગ આઉટ",
+                "language":  "ભાષા"
+            },
+    "dashboard":  {
+                      "welcome":  "{{timeOfDay}}, {{name}}",
+                      "totalBalance":  "કુલ બેલેન્સ",
+                      "monthlyIncome":  "માસિક આવક",
+                      "monthlyExpenses":  "માસિક ખર્ચ",
+                      "savingsRate":  "બચત દર",
+                      "recentTransactions":  "તાજેતરના વ્યવહારો",
+                      "expenseBreakdown":  "ખર્ચ વિગત",
+                      "cashflowTrend":  "રોકડ પ્રવાહ વલણ",
+                      "noTransactions":  "હજુ કોઈ વ્યવહાર નથી.",
+                      "addFirst":  "તમારી પ્રથમ આવક અથવા ખર્ચ ઉમેરો!"
+                  },
+    "transactions":  {
+                         "title":  "વ્યવહારો",
+                         "subtitle":  "તમારા રેકોર્ડ શોધો, ફિલ્ટર કરો, સંપાદિત કરો અને નિકાસ કરો.",
+                         "addTransaction":  "વ્યવહાર ઉમેરો",
+                         "exportCSV":  "CSV નિકાસ",
+                         "income":  "આવક",
+                         "expense":  "ખર્ચ",
+                         "allTypes":  "બધા પ્રકારો",
+                         "allCategories":  "બધી શ્રેણીઓ",
+                         "description":  "વર્ણન",
+                         "date":  "તારીખ",
+                         "category":  "શ્રેણી",
+                         "type":  "પ્રકાર",
+                         "amount":  "રકમ",
+                         "actions":  "ક્રિયાઓ",
+                         "paymentMode":  "ચુકવણી મોડ",
+                         "search":  "વર્ણન અથવા શ્રેણી દ્વારા શોધો..."
+                     },
+    "budget":  {
+                   "title":  "માસિક બજેટ",
+                   "subtitle":  "આ મહિનાની શ્રેણી મર્યાદાઓ ટ્રેક કરો",
+                   "spent":  "ખર્ચ",
+                   "remaining":  "બાકી",
+                   "usage":  "ઉપયોગ",
+                   "limit":  "મર્યાદા",
+                   "overBudget":  "બજેટ ઓળંગ્યું",
+                   "saveBudget":  "બજેટ સાચવો"
+               },
+    "analytics":  {
+                      "title":  "વિશ્લેષણ",
+                      "thisMonth":  "આ મહિને",
+                      "last3Months":  "છેલ્લા 3 મહિના",
+                      "last6Months":  "છેલ્લા 6 મહિના",
+                      "customRange":  "કસ્ટમ શ્રેણી",
+                      "fromDate":  "શરૂઆત તારીખ",
+                      "toDate":  "અંત તારીખ",
+                      "highestExpense":  "સર્વાધિક ખર્ચ મહિનો",
+                      "bestSavings":  "શ્રેષ્ઠ બચત મહિનો",
+                      "avgSpend":  "સરેરાશ માસિક ખર્ચ",
+                      "monthlyIncomeVsExpenses":  "માસિક આવક vs ખર્ચ",
+                      "savingsStreamTrend":  "બચત પ્રવાહ વલણ",
+                      "categorySpending":  "શ્રેણીવાર ખર્ચ હિસ્સો"
+                  },
+    "profile":  {
+                    "title":  "વપરાશકર્તા સેટિંગ્સ",
+                    "personalDetails":  "વ્યક્તિગત વિગતો",
+                    "fullName":  "પૂર્ણ નામ",
+                    "email":  "ઈમેલ સરનામું",
+                    "saveChanges":  "ફેરફારો સાચવો",
+                    "primaryCurrency":  "પ્રાથમિક ચલણ",
+                    "changePassword":  "પાસવર્ડ બદલો",
+                    "currentPassword":  "વર્તમાન પાસવર્ડ",
+                    "newPassword":  "નવો પાસવર્ડ",
+                    "confirmPassword":  "નવો પાસવર્ડ પુષ્ટિ કરો",
+                    "updatePassword":  "પાસવર્ડ અપડેટ કરો",
+                    "dangerZone":  "જોખમ વિસ્તાર",
+                    "deleteAccount":  "એકાઉન્ટ કાઢી નાખો"
+                },
+    "common":  {
+                   "cancel":  "રદ કરો",
+                   "save":  "સાચવો",
+                   "add":  "ઉમેરો",
+                   "delete":  "કાઢી નાખો",
+                   "edit":  "સંપાદિત કરો",
+                   "search":  "શોધો",
+                   "loading":  "લોડ થઈ રહ્યું છે...",
+                   "success":  "સફળતા",
+                   "error":  "ભૂલ",
+                   "confirm":  "પુષ્ટિ કરો",
+                   "paymentMode":  "ચુકવણી મોડ"
+               },
+    "greeting":  {
+                     "evening":  "શુભ સાંજ",
+                     "morning":  "શુભ સવાર",
+                     "afternoon":  "શુભ બપોર"
+                 }
 }

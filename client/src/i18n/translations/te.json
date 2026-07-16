@@ -1,9 +1,99 @@
 ﻿{
-  "nav": { "dashboard": "డాష్‌బోర్డ్", "transactions": "లావాదేవీలు", "budget": "బడ్జెట్", "analytics": "విశ్లేషణ", "profile": "ప్రొఫైల్", "logout": "లాగ్ అవుట్", "language": "భాష" },
-  "dashboard": { "welcome": "{{timeOfDay}}, {{name}}", "totalBalance": "మొత్తం బ్యాలెన్స్", "monthlyIncome": "నెలవారీ ఆదాయం", "monthlyExpenses": "నెలవారీ ఖర్చులు", "savingsRate": "పొదుపు రేటు", "recentTransactions": "ఇటీవలి లావాదేవీలు", "expenseBreakdown": "ఖర్చుల వివరాలు", "cashflowTrend": "నగదు ప్రవాహ ధోరణి", "noTransactions": "ఇంకా లావాదేవీలు లేవు.", "addFirst": "మీ మొదటి ఆదాయం లేదా ఖర్చును జోడించండి!" },
-  "transactions": { "title": "లావాదేవీలు", "subtitle": "మీ రికార్డులను వెతకండి, ఫిల్టర్ చేయండి, సవరించండి మరియు ఎగుమతి చేయండి.", "addTransaction": "లావాదేవీ జోడించు", "exportCSV": "CSV ఎగుమతి", "income": "ఆదాయం", "expense": "ఖర్చు", "allTypes": "అన్ని రకాలు", "allCategories": "అన్ని వర్గాలు", "description": "వివరణ", "date": "తేదీ", "category": "వర్గం", "type": "రకం", "amount": "మొత్తం", "actions": "చర్యలు", "paymentMode": "చెల్లింపు విధానం", "search": "వివరణ లేదా వర్గం ద్వారా వెతకండి..." },
-  "budget": { "title": "నెలవారీ బడ్జెట్", "subtitle": "ఈ నెల వర్గ పరిమితులను ట్రాక్ చేయండి", "spent": "ఖర్చు", "remaining": "మిగిలినది", "usage": "వినియోగం", "limit": "పరిమితి", "overBudget": "బడ్జెట్ మించిపోయింది", "saveBudget": "బడ్జెట్ సేవ్ చేయి" },
-  "analytics": { "title": "విశ్లేషణ", "thisMonth": "ఈ నెల", "last3Months": "చివరి 3 నెలలు", "last6Months": "చివరి 6 నెలలు", "customRange": "అనుకూల పరిధి", "fromDate": "ప్రారంభ తేదీ", "toDate": "ముగింపు తేదీ", "highestExpense": "అత్యధిక ఖర్చు నెల", "bestSavings": "ఉత్తమ పొదుపు నెల", "avgSpend": "సగటు నెలవారీ ఖర్చు", "monthlyIncomeVsExpenses": "నెలవారీ ఆదాయం vs ఖర్చులు", "savingsStreamTrend": "పొదుపు ధోరణి", "categorySpending": "వర్గాల వారీ ఖర్చు వాటా" },
-  "profile": { "title": "వినియోగదారు సెట్టింగులు", "personalDetails": "వ్యక్తిగత వివరాలు", "fullName": "పూర్తి పేరు", "email": "ఇమెయిల్ చిరునామా", "saveChanges": "మార్పులు సేవ్ చేయి", "primaryCurrency": "ప్రాథమిక కరెన్సీ", "changePassword": "పాస్‌వర్డ్ మార్చు", "currentPassword": "ప్రస్తుత పాస్‌వర్డ్", "newPassword": "కొత్త పాస్‌వర్డ్", "confirmPassword": "కొత్త పాస్‌వర్డ్ నిర్ధారించండి", "updatePassword": "పాస్‌వర్డ్ నవీకరించు", "dangerZone": "ప్రమాద ప్రాంతం", "deleteAccount": "ఖాతా తొలగించు" },
-  "common": { "cancel": "రద్దు చేయి", "save": "సేవ్", "add": "జోడించు", "delete": "తొలగించు", "edit": "సవరించు", "search": "వెతుకు", "loading": "లోడ్ అవుతోంది...", "success": "విజయం", "error": "లోపం", "confirm": "నిర్ధారించు", "paymentMode": "చెల్లింపు విధానం" }
+    "nav":  {
+                "dashboard":  "డాష్‌బోర్డ్",
+                "transactions":  "లావాదేవీలు",
+                "budget":  "బడ్జెట్",
+                "analytics":  "విశ్లేషణ",
+                "profile":  "ప్రొఫైల్",
+                "logout":  "లాగ్ అవుట్",
+                "language":  "భాష"
+            },
+    "dashboard":  {
+                      "welcome":  "{{timeOfDay}}, {{name}}",
+                      "totalBalance":  "మొత్తం బ్యాలెన్స్",
+                      "monthlyIncome":  "నెలవారీ ఆదాయం",
+                      "monthlyExpenses":  "నెలవారీ ఖర్చులు",
+                      "savingsRate":  "పొదుపు రేటు",
+                      "recentTransactions":  "ఇటీవలి లావాదేవీలు",
+                      "expenseBreakdown":  "ఖర్చుల వివరాలు",
+                      "cashflowTrend":  "నగదు ప్రవాహ ధోరణి",
+                      "noTransactions":  "ఇంకా లావాదేవీలు లేవు.",
+                      "addFirst":  "మీ మొదటి ఆదాయం లేదా ఖర్చును జోడించండి!"
+                  },
+    "transactions":  {
+                         "title":  "లావాదేవీలు",
+                         "subtitle":  "మీ రికార్డులను వెతకండి, ఫిల్టర్ చేయండి, సవరించండి మరియు ఎగుమతి చేయండి.",
+                         "addTransaction":  "లావాదేవీ జోడించు",
+                         "exportCSV":  "CSV ఎగుమతి",
+                         "income":  "ఆదాయం",
+                         "expense":  "ఖర్చు",
+                         "allTypes":  "అన్ని రకాలు",
+                         "allCategories":  "అన్ని వర్గాలు",
+                         "description":  "వివరణ",
+                         "date":  "తేదీ",
+                         "category":  "వర్గం",
+                         "type":  "రకం",
+                         "amount":  "మొత్తం",
+                         "actions":  "చర్యలు",
+                         "paymentMode":  "చెల్లింపు విధానం",
+                         "search":  "వివరణ లేదా వర్గం ద్వారా వెతకండి..."
+                     },
+    "budget":  {
+                   "title":  "నెలవారీ బడ్జెట్",
+                   "subtitle":  "ఈ నెల వర్గ పరిమితులను ట్రాక్ చేయండి",
+                   "spent":  "ఖర్చు",
+                   "remaining":  "మిగిలినది",
+                   "usage":  "వినియోగం",
+                   "limit":  "పరిమితి",
+                   "overBudget":  "బడ్జెట్ మించిపోయింది",
+                   "saveBudget":  "బడ్జెట్ సేవ్ చేయి"
+               },
+    "analytics":  {
+                      "title":  "విశ్లేషణ",
+                      "thisMonth":  "ఈ నెల",
+                      "last3Months":  "చివరి 3 నెలలు",
+                      "last6Months":  "చివరి 6 నెలలు",
+                      "customRange":  "అనుకూల పరిధి",
+                      "fromDate":  "ప్రారంభ తేదీ",
+                      "toDate":  "ముగింపు తేదీ",
+                      "highestExpense":  "అత్యధిక ఖర్చు నెల",
+                      "bestSavings":  "ఉత్తమ పొదుపు నెల",
+                      "avgSpend":  "సగటు నెలవారీ ఖర్చు",
+                      "monthlyIncomeVsExpenses":  "నెలవారీ ఆదాయం vs ఖర్చులు",
+                      "savingsStreamTrend":  "పొదుపు ధోరణి",
+                      "categorySpending":  "వర్గాల వారీ ఖర్చు వాటా"
+                  },
+    "profile":  {
+                    "title":  "వినియోగదారు సెట్టింగులు",
+                    "personalDetails":  "వ్యక్తిగత వివరాలు",
+                    "fullName":  "పూర్తి పేరు",
+                    "email":  "ఇమెయిల్ చిరునామా",
+                    "saveChanges":  "మార్పులు సేవ్ చేయి",
+                    "primaryCurrency":  "ప్రాథమిక కరెన్సీ",
+                    "changePassword":  "పాస్‌వర్డ్ మార్చు",
+                    "currentPassword":  "ప్రస్తుత పాస్‌వర్డ్",
+                    "newPassword":  "కొత్త పాస్‌వర్డ్",
+                    "confirmPassword":  "కొత్త పాస్‌వర్డ్ నిర్ధారించండి",
+                    "updatePassword":  "పాస్‌వర్డ్ నవీకరించు",
+                    "dangerZone":  "ప్రమాద ప్రాంతం",
+                    "deleteAccount":  "ఖాతా తొలగించు"
+                },
+    "common":  {
+                   "cancel":  "రద్దు చేయి",
+                   "save":  "సేవ్",
+                   "add":  "జోడించు",
+                   "delete":  "తొలగించు",
+                   "edit":  "సవరించు",
+                   "search":  "వెతుకు",
+                   "loading":  "లోడ్ అవుతోంది...",
+                   "success":  "విజయం",
+                   "error":  "లోపం",
+                   "confirm":  "నిర్ధారించు",
+                   "paymentMode":  "చెల్లింపు విధానం"
+               },
+    "greeting":  {
+                     "evening":  "శుభ సాయంత్రం",
+                     "morning":  "శుభోదయం",
+                     "afternoon":  "శుభ మధ్యాహ్నం"
+                 }
 }
