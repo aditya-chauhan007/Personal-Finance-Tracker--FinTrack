@@ -95,5 +95,12 @@
                      "evening":  "शुभ संध्याकाळ",
                      "morning":  "शुभ सकाळ",
                      "afternoon":  "शुभ दुपार"
+                 },
+    "frequency":  {
+                      "label":  "वारंवारता",
+                      "daily":  "दैनिक",
+                      "weekly":  "साप्ताहिक",
+                      "monthly":  "मासिक",
+                      "oneTime":  "एकवेळ"
                  }
 }

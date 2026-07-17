@@ -95,5 +95,12 @@
                      "evening":  "ശുഭ സന്ധ്യ",
                      "morning":  "സുപ്രഭാതം",
                      "afternoon":  "ശുഭ ഉച്ച"
+                 },
+    "frequency":  {
+                      "label":  "ആവൃത്തി",
+                      "daily":  "ദിവസേന",
+                      "weekly":  "പ്രതിവാരം",
+                      "monthly":  "പ്രതിമാസം",
+                      "oneTime":  "ഒരു തവണ"
                  }
 }

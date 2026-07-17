@@ -95,5 +95,12 @@
                      "evening":  "ਸ਼ੁਭ ਸ਼ਾਮ",
                      "morning":  "ਸ਼ੁਭ ਸਵੇਰ",
                      "afternoon":  "ਸ਼ੁਭ ਦੁਪਹਿਰ"
+                 },
+    "frequency":  {
+                      "label":  "ਬਾਰੰਬਾਰਤਾ",
+                      "daily":  "ਰੋਜ਼ਾਨਾ",
+                      "weekly":  "ਹਫ਼ਤਾਵਾਰੀ",
+                      "monthly":  "ਮਹੀਨਾਵਾਰ",
+                      "oneTime":  "ਇੱਕ ਵਾਰ"
                  }
 }

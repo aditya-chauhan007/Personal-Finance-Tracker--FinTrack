@@ -95,5 +95,12 @@
                      "evening":  "শুভ সন্ধ্যা",
                      "morning":  "সুপ্রভাত",
                      "afternoon":  "শুভ অপরাহ্ন"
+                 },
+    "frequency":  {
+                      "label":  "ফ্রিকোয়েন্সি",
+                      "daily":  "দৈনিক",
+                      "weekly":  "সাপ্তাহিক",
+                      "monthly":  "মাসিক",
+                      "oneTime":  "একবার"
                  }
 }

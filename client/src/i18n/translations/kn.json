@@ -95,5 +95,12 @@
                      "evening":  "ಶುಭ ಸಂಜೆ",
                      "morning":  "ಶುಭೋದಯ",
                      "afternoon":  "ಶುಭ ಮಧ್ಯಾಹ್ನ"
+                 },
+    "frequency":  {
+                      "label":  "ಆವರ್ತನ",
+                      "daily":  "ದೈನಂದಿನ",
+                      "weekly":  "ವಾರಕ್ಕೊಮ್ಮೆ",
+                      "monthly":  "ಮಾಸಿಕ",
+                      "oneTime":  "ಒಮ್ಮೆ"
                  }
 }

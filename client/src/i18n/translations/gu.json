@@ -95,5 +95,12 @@
                      "evening":  "શુભ સાંજ",
                      "morning":  "શુભ સવાર",
                      "afternoon":  "શુભ બપોર"
+                 },
+    "frequency":  {
+                      "label":  "આવર્તન",
+                      "daily":  "દૈનિક",
+                      "weekly":  "સાપ્તાહિક",
+                      "monthly":  "માસિક",
+                      "oneTime":  "એક વખત"
                  }
 }

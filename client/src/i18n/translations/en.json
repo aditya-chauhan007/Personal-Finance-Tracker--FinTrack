@@ -95,5 +95,12 @@
                      "evening":  "Good Evening",
                      "morning":  "Good Morning",
                      "afternoon":  "Good Afternoon"
+                 },
+    "frequency":  {
+                      "label":  "Frequency",
+                      "daily":  "Daily",
+                      "weekly":  "Weekly",
+                      "monthly":  "Monthly",
+                      "oneTime":  "One-time"
                  }
 }
