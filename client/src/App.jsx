@@ -133,7 +133,73 @@ function PieBlock({ data }) { const { formatAmount } = useCurrency(); if (!data.
 function TrendChart({ data }) { const { formatAmount } = useCurrency(); return <ResponsiveContainer width="100%" height={300}><LineChart data={data}><CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,.1)" /><XAxis dataKey="name" /><YAxis /><Tooltip formatter={(v) => formatAmount(v)} /><Line dataKey="income" stroke="#10b981" strokeWidth={3} isAnimationActive /><Line dataKey="expense" stroke="#f43f5e" strokeWidth={3} isAnimationActive /></LineChart></ResponsiveContainer>; }
 
 function AdminCard({ title, value, color, i }) { return <motion.div {...card(i)} className="glass rounded-2xl p-5"><div className="mb-4 grid h-11 w-11 place-items-center rounded-xl" style={{ background: color }}><Shield /></div><p className="text-sm text-white/65">{title}</p><p className="mt-2 text-2xl font-bold">{value}</p></motion.div>; }
-export function AdminPortal() { const { t } = useTranslation(); const { formatAmount } = useCurrency(); const [stats, setStats] = useState(null); const [users, setUsers] = useState([]); const [pageNo, setPageNo] = useState(1); const [pages, setPages] = useState(1); const [loading, setLoading] = useState(true); const fetchAdmin = async (page = pageNo) => { setLoading(true); try { const [statsRes, usersRes] = await Promise.all([api.get("/api/admin/stats"), api.get(`/api/admin/users?page=${page}&limit=10`)]); setStats(statsRes.data.stats); setUsers(usersRes.data.users || []); setPages(usersRes.data.pages || 1); setPageNo(usersRes.data.page || page); } catch (error) { toast.error(error.response?.data?.message || "Unable to load admin data"); } finally { setLoading(false); } }; useEffect(() => { fetchAdmin(1); }, []); const toggleRole = async (user) => { try { const role = user.role === "admin" ? "user" : "admin"; await api.put(`/api/admin/users/${user._id}/role`, { role }); toast.success(t("common.success")); fetchAdmin(pageNo); } catch (error) { toast.error(error.response?.data?.message || "Unable to update role"); } }; if (loading && !stats) return <motion.div {...page}><Empty text={t("common.loading")} /></motion.div>; return <motion.div {...page} className="space-y-5"><Header title={t("admin.title")} /><div className="grid gap-4 md:grid-cols-2 xl:grid-cols-5"><AdminCard i={0} title={t("admin.totalUsers")} value={stats?.totalUsers || 0} color="#7c3aed" /><AdminCard i={1} title={t("admin.totalTransactions")} value={stats?.totalTransactions || 0} color="#38bdf8" /><AdminCard i={2} title={t("admin.totalIncome")} value={formatAmount(stats?.totalIncome || 0)} color="#10b981" /><AdminCard i={3} title={t("admin.totalExpenses")} value={formatAmount(stats?.totalExpense || 0)} color="#f43f5e" /><AdminCard i={4} title={t("admin.averageSavingsRate")} value={`${Math.max(0, stats?.averageSavingsRate || 0).toFixed(0)}%`} color="#f59e0b" /></div><div className="glass table-wrap rounded-2xl"><table className="w-full min-w-[900px] text-left"><thead className="text-white/60"><tr><th className="p-4">{t("admin.name")}</th><th className="p-4">{t("admin.email")}</th><th className="p-4">{t("admin.registrationDate")}</th><th className="p-4">{t("admin.transactions")}</th><th className="p-4">{t("admin.role")}</th><th className="p-4">{t("transactions.actions")}</th></tr></thead><tbody>{users.map((user) => <tr key={user._id} className="border-t border-white/10"><td className="p-4 font-semibold">{user.fullName}</td><td className="p-4">{user.email}</td><td className="p-4">{new Date(user.createdAt).toLocaleDateString()}</td><td className="p-4">{user.transactionCount}</td><td className="p-4"><span className={(user.role === "admin" ? "bg-violet-500/20 text-violet-200" : "bg-white/10") + " badge"}>{user.role}</span></td><td className="p-4"><button className="btn btn-ghost px-3" onClick={() => toggleRole(user)}>{user.role === "admin" ? t("admin.removeAdmin") : t("admin.makeAdmin")}</button></td></tr>)}</tbody></table><div className="flex items-center justify-end gap-3 p-4"><button className="btn btn-ghost" disabled={pageNo === 1} onClick={() => fetchAdmin(pageNo - 1)}>Prev</button><span>{pageNo}</span><button className="btn btn-ghost" disabled={pageNo >= pages} onClick={() => fetchAdmin(pageNo + 1)}>Next</button></div></div></motion.div>; }
+export function AdminPortal() {
+  const { t } = useTranslation();
+  const { user: currentUser } = useAuth();
+  const { formatAmount } = useCurrency();
+  const [stats, setStats] = useState(null);
+  const [users, setUsers] = useState([]);
+  const [pageNo, setPageNo] = useState(1);
+  const [pages, setPages] = useState(1);
+  const [loading, setLoading] = useState(true);
+  const fetchAdmin = async (page = pageNo) => {
+    setLoading(true);
+    try {
+      const [statsRes, usersRes] = await Promise.all([api.get("/api/admin/stats"), api.get(`/api/admin/users?page=${page}&limit=10`)]);
+      setStats(statsRes.data.stats);
+      setUsers(usersRes.data.users || []);
+      setPages(usersRes.data.pages || 1);
+      setPageNo(usersRes.data.page || page);
+    } catch (error) {
+      toast.error(error.response?.data?.message || "Unable to load admin data");
+    } finally {
+      setLoading(false);
+    }
+  };
+  useEffect(() => { fetchAdmin(1); }, []);
+  const toggleRole = async (user) => {
+    try {
+      const role = user.role === "admin" ? "user" : "admin";
+      await api.put(`/api/admin/users/${user._id}/role`, { role });
+      toast.success(t("common.success"));
+      fetchAdmin(pageNo);
+    } catch (error) {
+      toast.error(error.response?.data?.message || "Unable to update role");
+    }
+  };
+  const removeUser = async (user) => {
+    if (!confirm(t("admin.removeUserConfirm", { name: user.fullName }))) return;
+    try {
+      await api.delete(`/api/admin/users/${user._id}`);
+      toast.success(t("common.success"));
+      fetchAdmin(pageNo);
+    } catch (error) {
+      toast.error(error.response?.data?.message || "Unable to remove user");
+    }
+  };
+  const exportCsv = async () => {
+    try {
+      let exportUsers = [];
+      let exportPage = 1;
+      let exportPages = 1;
+      do {
+        const response = await api.get(`/api/admin/users?page=${exportPage}&limit=50`);
+        exportUsers = exportUsers.concat(response.data.users || []);
+        exportPages = response.data.pages || exportPage;
+        exportPage += 1;
+      } while (exportPage <= exportPages);
+      const csv = ["Name,Email,Registration Date,Transactions,Role"].concat(exportUsers.map((user) => [user.fullName, user.email, new Date(user.createdAt).toLocaleDateString(), user.transactionCount, user.role].map((value) => '"' + String(value).replaceAll('"', '""') + '"').join(","))).join("\n");
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(new Blob([csv], { type: "text/csv" }));
+      a.download = "fintrack-admin-users.csv";
+      a.click();
+    } catch (error) {
+      toast.error(error.response?.data?.message || "Unable to export users");
+    }
+  };
+  if (loading && !stats) return <motion.div {...page}><Empty text={t("common.loading")} /></motion.div>;
+  return <motion.div {...page} className="space-y-5"><Header title={t("admin.title")}><button className="btn btn-ghost" onClick={exportCsv}><Download /> {t("transactions.exportCSV")}</button></Header><div className="grid gap-4 md:grid-cols-2 xl:grid-cols-5"><AdminCard i={0} title={t("admin.totalUsers")} value={stats?.totalUsers || 0} color="#7c3aed" /><AdminCard i={1} title={t("admin.totalTransactions")} value={stats?.totalTransactions || 0} color="#38bdf8" /><AdminCard i={2} title={t("admin.totalIncome")} value={formatAmount(stats?.totalIncome || 0)} color="#10b981" /><AdminCard i={3} title={t("admin.totalExpenses")} value={formatAmount(stats?.totalExpense || 0)} color="#f43f5e" /><AdminCard i={4} title={t("admin.averageSavingsRate")} value={`${Math.max(0, stats?.averageSavingsRate || 0).toFixed(0)}%`} color="#f59e0b" /></div><div className="glass table-wrap rounded-2xl"><table className="w-full min-w-[900px] text-left"><thead className="text-white/60"><tr><th className="p-4">{t("admin.name")}</th><th className="p-4">{t("admin.email")}</th><th className="p-4">{t("admin.registrationDate")}</th><th className="p-4">{t("admin.transactions")}</th><th className="p-4">{t("admin.role")}</th><th className="p-4">{t("transactions.actions")}</th></tr></thead><tbody>{users.map((user) => <tr key={user._id} className="border-t border-white/10"><td className="p-4 font-semibold">{user.fullName}</td><td className="p-4">{user.email}</td><td className="p-4">{new Date(user.createdAt).toLocaleDateString()}</td><td className="p-4">{user.transactionCount}</td><td className="p-4"><span className={(user.role === "admin" ? "bg-violet-500/20 text-violet-200" : "bg-white/10") + " badge"}>{user.role}</span></td><td className="p-4"><div className="flex flex-wrap gap-2"><button className="btn btn-ghost px-3" onClick={() => toggleRole(user)}>{user.role === "admin" ? t("admin.removeAdmin") : t("admin.makeAdmin")}</button><button className="btn bg-rose-600 px-3 text-white disabled:cursor-not-allowed disabled:opacity-40" disabled={String(user._id) === String(currentUser?._id)} onClick={() => removeUser(user)}><Trash2 size={16} /> {t("admin.removeUser")}</button></div></td></tr>)}</tbody></table><div className="flex items-center justify-end gap-3 p-4"><button className="btn btn-ghost" disabled={pageNo === 1} onClick={() => fetchAdmin(pageNo - 1)}>Prev</button><span>{pageNo}</span><button className="btn btn-ghost" disabled={pageNo >= pages} onClick={() => fetchAdmin(pageNo + 1)}>Next</button></div></div></motion.div>;
+}
 
 export function Profile() {
   const { user, updateProfile, logout } = useAuth();

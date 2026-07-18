@@ -1,4 +1,5 @@
 import Transaction from "../models/Transaction.js";
+import Budget from "../models/Budget.js";
 import User from "../models/User.js";
 
 const userProjection = "fullName email role createdAt";
@@ -77,6 +78,22 @@ export const updateAdminUserRole = async (req, res, next) => {
     const user = await User.findByIdAndUpdate(req.params.id, { role }, { new: true, runValidators: true }).select(userProjection);
     if (!user) return res.status(404).json({ message: "User not found" });
     res.json({ user: { _id: user._id, fullName: user.fullName, email: user.email, role: user.role || "user", createdAt: user.createdAt } });
+  } catch (error) {
+    next(error);
+  }
+};
+
+export const deleteAdminUser = async (req, res, next) => {
+  try {
+    if (String(req.params.id) === String(req.userId)) return res.status(400).json({ message: "You cannot remove your own account" });
+    const user = await User.findById(req.params.id).select("_id");
+    if (!user) return res.status(404).json({ message: "User not found" });
+    await Promise.all([
+      Transaction.deleteMany({ userId: user._id }),
+      Budget.deleteMany({ userId: user._id }),
+      User.findByIdAndDelete(user._id)
+    ]);
+    res.json({ message: "User removed" });
   } catch (error) {
     next(error);
   }

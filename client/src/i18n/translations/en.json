@@ -116,6 +116,8 @@
                   "transactions":  "Transactions",
                   "role":  "Role",
                   "makeAdmin":  "Make Admin",
-                  "removeAdmin":  "Remove Admin"
+                  "removeAdmin":  "Remove Admin",
+                  "removeUser":  "Remove User",
+                  "removeUserConfirm":  "Are you sure you want to permanently remove {{name}} and all their data? This cannot be undone."
                  }
 }
