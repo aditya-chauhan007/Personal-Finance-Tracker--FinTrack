@@ -102,5 +102,20 @@
                       "weekly":  "வாராந்திர",
                       "monthly":  "மாதாந்திர",
                       "oneTime":  "ஒரு முறை"
+                 },
+    "admin":  {
+                  "title":  "நிர்வாக போர்டல்",
+                  "totalUsers":  "மொத்த பயனர்கள்",
+                  "totalTransactions":  "மொத்த பரிவர்த்தனைகள்",
+                  "totalIncome":  "மொத்த வருமானம்",
+                  "totalExpenses":  "மொத்த செலவுகள்",
+                  "averageSavingsRate":  "சராசரி சேமிப்பு விகிதம்",
+                  "name":  "பெயர்",
+                  "email":  "மின்னஞ்சல்",
+                  "registrationDate":  "பதிவு தேதி",
+                  "transactions":  "பரிவர்த்தனைகள்",
+                  "role":  "பங்கு",
+                  "makeAdmin":  "நிர்வாகியாக்கு",
+                  "removeAdmin":  "நிர்வாகியை நீக்கு"
                  }
 }

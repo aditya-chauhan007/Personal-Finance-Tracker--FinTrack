@@ -102,5 +102,20 @@
                       "weekly":  "साप्ताहिक",
                       "monthly":  "मासिक",
                       "oneTime":  "एक बार"
+                 },
+    "admin":  {
+                  "title":  "एडमिन पोर्टल",
+                  "totalUsers":  "कुल उपयोगकर्ता",
+                  "totalTransactions":  "कुल लेनदेन",
+                  "totalIncome":  "कुल आय",
+                  "totalExpenses":  "कुल खर्च",
+                  "averageSavingsRate":  "औसत बचत दर",
+                  "name":  "नाम",
+                  "email":  "ईमेल",
+                  "registrationDate":  "पंजीकरण तारीख",
+                  "transactions":  "लेनदेन",
+                  "role":  "भूमिका",
+                  "makeAdmin":  "एडमिन बनाएं",
+                  "removeAdmin":  "एडमिन हटाएं"
                  }
 }

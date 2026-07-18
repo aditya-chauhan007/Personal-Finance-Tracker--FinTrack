@@ -102,5 +102,20 @@
                       "weekly":  "সাপ্তাহিক",
                       "monthly":  "মাসিক",
                       "oneTime":  "একবার"
+                 },
+    "admin":  {
+                  "title":  "অ্যাডমিন পোর্টাল",
+                  "totalUsers":  "মোট ব্যবহারকারী",
+                  "totalTransactions":  "মোট লেনদেন",
+                  "totalIncome":  "মোট আয়",
+                  "totalExpenses":  "মোট ব্যয়",
+                  "averageSavingsRate":  "গড় সঞ্চয় হার",
+                  "name":  "নাম",
+                  "email":  "ইমেল",
+                  "registrationDate":  "নিবন্ধনের তারিখ",
+                  "transactions":  "লেনদেন",
+                  "role":  "ভূমিকা",
+                  "makeAdmin":  "অ্যাডমিন করুন",
+                  "removeAdmin":  "অ্যাডমিন সরান"
                  }
 }

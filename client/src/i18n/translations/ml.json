@@ -102,5 +102,20 @@
                       "weekly":  "പ്രതിവാരം",
                       "monthly":  "പ്രതിമാസം",
                       "oneTime":  "ഒരു തവണ"
+                 },
+    "admin":  {
+                  "title":  "അഡ്മിൻ പോർട്ടൽ",
+                  "totalUsers":  "മൊത്തം ഉപയോക്താക്കൾ",
+                  "totalTransactions":  "മൊത്തം ഇടപാടുകൾ",
+                  "totalIncome":  "മൊത്തം വരുമാനം",
+                  "totalExpenses":  "മൊത്തം ചെലവുകൾ",
+                  "averageSavingsRate":  "ശരാശരി സേവിംഗ്സ് നിരക്ക്",
+                  "name":  "പേര്",
+                  "email":  "ഇമെയിൽ",
+                  "registrationDate":  "രജിസ്ട്രേഷൻ തീയതി",
+                  "transactions":  "ഇടപാടുകൾ",
+                  "role":  "റോൾ",
+                  "makeAdmin":  "അഡ്മിൻ ആക്കുക",
+                  "removeAdmin":  "അഡ്മിൻ നീക്കംചെയ്യുക"
                  }
 }

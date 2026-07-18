@@ -102,5 +102,20 @@
                       "weekly":  "ವಾರಕ್ಕೊಮ್ಮೆ",
                       "monthly":  "ಮಾಸಿಕ",
                       "oneTime":  "ಒಮ್ಮೆ"
+                 },
+    "admin":  {
+                  "title":  "ಅಡ್ಮಿನ್ ಪೋರ್ಟಲ್",
+                  "totalUsers":  "ಒಟ್ಟು ಬಳಕೆದಾರರು",
+                  "totalTransactions":  "ಒಟ್ಟು ವಹಿವಾಟುಗಳು",
+                  "totalIncome":  "ಒಟ್ಟು ಆದಾಯ",
+                  "totalExpenses":  "ಒಟ್ಟು ವೆಚ್ಚಗಳು",
+                  "averageSavingsRate":  "ಸರಾಸರಿ ಉಳಿತಾಯ ದರ",
+                  "name":  "ಹೆಸರು",
+                  "email":  "ಇಮೇಲ್",
+                  "registrationDate":  "ನೋಂದಣಿ ದಿನಾಂಕ",
+                  "transactions":  "ವಹಿವಾಟುಗಳು",
+                  "role":  "ಪಾತ್ರ",
+                  "makeAdmin":  "ಅಡ್ಮಿನ್ ಮಾಡಿ",
+                  "removeAdmin":  "ಅಡ್ಮಿನ್ ತೆಗೆದುಹಾಕಿ"
                  }
 }

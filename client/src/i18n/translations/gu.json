@@ -102,5 +102,20 @@
                       "weekly":  "સાપ્તાહિક",
                       "monthly":  "માસિક",
                       "oneTime":  "એક વખત"
+                 },
+    "admin":  {
+                  "title":  "એડમિન પોર્ટલ",
+                  "totalUsers":  "કુલ વપરાશકર્તાઓ",
+                  "totalTransactions":  "કુલ વ્યવહારો",
+                  "totalIncome":  "કુલ આવક",
+                  "totalExpenses":  "કુલ ખર્ચ",
+                  "averageSavingsRate":  "સરેરાશ બચત દર",
+                  "name":  "નામ",
+                  "email":  "ઈમેલ",
+                  "registrationDate":  "નોંધણી તારીખ",
+                  "transactions":  "વ્યવહારો",
+                  "role":  "ભૂમિકા",
+                  "makeAdmin":  "એડમિન બનાવો",
+                  "removeAdmin":  "એડમિન દૂર કરો"
                  }
 }

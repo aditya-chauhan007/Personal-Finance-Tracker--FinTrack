@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import express from "express";
 import connectDB from "./config/db.js";
 import authRoutes from "./routes/auth.js";
+import adminRoutes from "./routes/admin.js";
 import budgetRoutes from "./routes/budgets.js";
 import transactionRoutes from "./routes/transactions.js";
 import errorHandler from "./middleware/errorHandler.js";
@@ -20,6 +21,7 @@ app.use(cors({
 app.use(express.json());
 app.get("/", (req, res) => res.json({ message: "FinTrack API is running" }));
 app.use("/api/auth", authRoutes);
+app.use("/api/admin", adminRoutes);
 app.use("/api/transactions", transactionRoutes);
 app.use("/api/budgets", budgetRoutes);
 app.use(errorHandler);

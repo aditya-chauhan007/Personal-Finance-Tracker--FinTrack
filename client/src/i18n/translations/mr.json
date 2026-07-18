@@ -102,5 +102,20 @@
                       "weekly":  "साप्ताहिक",
                       "monthly":  "मासिक",
                       "oneTime":  "एकवेळ"
+                 },
+    "admin":  {
+                  "title":  "अॅडमिन पोर्टल",
+                  "totalUsers":  "एकूण वापरकर्ते",
+                  "totalTransactions":  "एकूण व्यवहार",
+                  "totalIncome":  "एकूण उत्पन्न",
+                  "totalExpenses":  "एकूण खर्च",
+                  "averageSavingsRate":  "सरासरी बचत दर",
+                  "name":  "नाव",
+                  "email":  "ईमेल",
+                  "registrationDate":  "नोंदणी तारीख",
+                  "transactions":  "व्यवहार",
+                  "role":  "भूमिका",
+                  "makeAdmin":  "अॅडमिन करा",
+                  "removeAdmin":  "अॅडमिन हटवा"
                  }
 }

@@ -102,5 +102,20 @@
                       "weekly":  "ਹਫ਼ਤਾਵਾਰੀ",
                       "monthly":  "ਮਹੀਨਾਵਾਰ",
                       "oneTime":  "ਇੱਕ ਵਾਰ"
+                 },
+    "admin":  {
+                  "title":  "ਐਡਮਿਨ ਪੋਰਟਲ",
+                  "totalUsers":  "ਕੁੱਲ ਉਪਭੋਗਤਾ",
+                  "totalTransactions":  "ਕੁੱਲ ਲੈਣ-ਦੇਣ",
+                  "totalIncome":  "ਕੁੱਲ ਆਮਦਨ",
+                  "totalExpenses":  "ਕੁੱਲ ਖਰਚੇ",
+                  "averageSavingsRate":  "ਔਸਤ ਬੱਚਤ ਦਰ",
+                  "name":  "ਨਾਮ",
+                  "email":  "ਈਮੇਲ",
+                  "registrationDate":  "ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਤਾਰੀਖ",
+                  "transactions":  "ਲੈਣ-ਦੇਣ",
+                  "role":  "ਭੂਮਿਕਾ",
+                  "makeAdmin":  "ਐਡਮਿਨ ਬਣਾਓ",
+                  "removeAdmin":  "ਐਡਮਿਨ ਹਟਾਓ"
                  }
 }

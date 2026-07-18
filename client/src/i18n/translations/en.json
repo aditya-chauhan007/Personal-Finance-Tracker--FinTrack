@@ -102,5 +102,20 @@
                       "weekly":  "Weekly",
                       "monthly":  "Monthly",
                       "oneTime":  "One-time"
+                 },
+    "admin":  {
+                  "title":  "Admin Portal",
+                  "totalUsers":  "Total Users",
+                  "totalTransactions":  "Total Transactions",
+                  "totalIncome":  "Total Income",
+                  "totalExpenses":  "Total Expenses",
+                  "averageSavingsRate":  "Average Savings Rate",
+                  "name":  "Name",
+                  "email":  "Email",
+                  "registrationDate":  "Registration Date",
+                  "transactions":  "Transactions",
+                  "role":  "Role",
+                  "makeAdmin":  "Make Admin",
+                  "removeAdmin":  "Remove Admin"
                  }
 }

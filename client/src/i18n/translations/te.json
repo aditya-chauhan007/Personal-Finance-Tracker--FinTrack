@@ -102,5 +102,20 @@
                       "weekly":  "వారానికొకసారి",
                       "monthly":  "నెలవారీ",
                       "oneTime":  "ఒకసారి"
+                 },
+    "admin":  {
+                  "title":  "అడ్మిన్ పోర్టల్",
+                  "totalUsers":  "మొత్తం వినియోగదారులు",
+                  "totalTransactions":  "మొత్తం లావాదేవీలు",
+                  "totalIncome":  "మొత్తం ఆదాయం",
+                  "totalExpenses":  "మొత్తం ఖర్చులు",
+                  "averageSavingsRate":  "సగటు పొదుపు రేటు",
+                  "name":  "పేరు",
+                  "email":  "ఇమెయిల్",
+                  "registrationDate":  "నమోదు తేదీ",
+                  "transactions":  "లావాదేవీలు",
+                  "role":  "పాత్ర",
+                  "makeAdmin":  "అడ్మిన్ చేయి",
+                  "removeAdmin":  "అడ్మిన్ తొలగించు"
                  }
 }
